@@ -98,6 +98,7 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="73"/>
           <synti>Fluid</synti>
@@ -161,6 +162,7 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel name="arco">
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="40"/>
           <synti>Fluid</synti>
@@ -170,6 +172,7 @@
           <synti>Fluid</synti>
           </Channel>
         <Channel name="tremolo">
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="44"/>
           <synti>Fluid</synti>
@@ -1555,7 +1558,7 @@
             </Chord>
           </voice>
         </Measure>
-      <Measure len="5/4">
+      <Measure>
         <voice>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -1579,11 +1582,6 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Rest>
-            <linkedMain/>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
           <Rest>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -1869,42 +1867,23 @@
             </Chord>
           </voice>
         </Measure>
-      <Measure len="5/4">
+      <Measure>
         <voice>
           <Chord>
             <linkedMain/>
-            <durationType>quarter</durationType>
+            <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
             <Note>
               <linkedMain/>
-              <Spanner type="Tie">
-                <Tie>
-                  <linkedMain/>
-                  <up>down</up>
-                  </Tie>
-                <next>
-                  <location>
-                    <fractions>1/4</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <pitch>70</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
+            <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/4</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
               <pitch>70</pitch>
               <tpc>12</tpc>
               </Note>
@@ -3524,10 +3503,6 @@
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <Symbol>
-            <name>keyboardPedalPed</name>
-            <linkedMain/>
-            </Symbol>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -3830,42 +3805,23 @@
             </Chord>
           </voice>
         </Measure>
-      <Measure len="5/4">
+      <Measure>
         <voice>
           <Chord>
             <linkedMain/>
-            <durationType>quarter</durationType>
+            <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
             <Note>
               <linkedMain/>
-              <Spanner type="Tie">
-                <Tie>
-                  <linkedMain/>
-                  <up>down</up>
-                  </Tie>
-                <next>
-                  <location>
-                    <fractions>1/4</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <pitch>70</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
+            <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/4</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
               <pitch>70</pitch>
               <tpc>12</tpc>
               </Note>
@@ -4149,7 +4105,7 @@
             </Chord>
           </voice>
         </Measure>
-      <Measure len="5/4">
+      <Measure>
         <voice>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -4173,11 +4129,6 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Rest>
-            <linkedMain/>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
           <Rest>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -4857,6 +4808,7 @@
             <gateTime>100</gateTime>
             </Articulation>
           <Channel>
+            <controller ctrl="0" value="0"/>
             <controller ctrl="32" value="17"/>
             <program value="73"/>
             <synti>Fluid</synti>
@@ -6449,7 +6401,7 @@
               </Chord>
             </voice>
           </Measure>
-        <Measure len="5/4">
+        <Measure>
           <voice>
             <Beam>
               <StemDirection>down</StemDirection>
@@ -6477,12 +6429,6 @@
                 <tpc>15</tpc>
                 </Note>
               </Chord>
-            <Rest>
-              <linked>
-                </linked>
-              <visible>0</visible>
-              <durationType>quarter</durationType>
-              </Rest>
             <Rest>
               <linked>
                 </linked>
@@ -6811,28 +6757,16 @@
               </Chord>
             </voice>
           </Measure>
-        <Measure len="5/4">
+        <Measure>
           <voice>
             <Chord>
               <linked>
                 </linked>
-              <durationType>quarter</durationType>
+              <durationType>eighth</durationType>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
-                <Spanner type="Tie">
-                  <Tie>
-                    <linked>
-                      </linked>
-                    <up>down</up>
-                    </Tie>
-                  <next>
-                    <location>
-                      <fractions>1/4</fractions>
-                      </location>
-                    </next>
-                  </Spanner>
                 <pitch>70</pitch>
                 <tpc>12</tpc>
                 </Note>
@@ -6840,18 +6774,10 @@
             <Chord>
               <linked>
                 </linked>
-              <durationType>quarter</durationType>
-              <StemDirection>down</StemDirection>
+              <durationType>eighth</durationType>
               <Note>
                 <linked>
                   </linked>
-                <Spanner type="Tie">
-                  <prev>
-                    <location>
-                      <fractions>-1/4</fractions>
-                      </location>
-                    </prev>
-                  </Spanner>
                 <pitch>70</pitch>
                 <tpc>12</tpc>
                 </Note>
@@ -7525,6 +7451,7 @@
             <gateTime>100</gateTime>
             </Articulation>
           <Channel name="arco">
+            <controller ctrl="0" value="0"/>
             <controller ctrl="32" value="17"/>
             <program value="40"/>
             <synti>Fluid</synti>
@@ -7534,6 +7461,7 @@
             <synti>Fluid</synti>
             </Channel>
           <Channel name="tremolo">
+            <controller ctrl="0" value="0"/>
             <controller ctrl="32" value="17"/>
             <program value="44"/>
             <synti>Fluid</synti>
@@ -8894,11 +8822,6 @@
                 <tpc>12</tpc>
                 </Note>
               </Chord>
-            <Symbol>
-              <name>keyboardPedalPed</name>
-              <linked>
-                </linked>
-              </Symbol>
             <Chord>
               <linked>
                 </linked>
@@ -9253,28 +9176,16 @@
               </Chord>
             </voice>
           </Measure>
-        <Measure len="5/4">
+        <Measure>
           <voice>
             <Chord>
               <linked>
                 </linked>
-              <durationType>quarter</durationType>
+              <durationType>eighth</durationType>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
-                <Spanner type="Tie">
-                  <Tie>
-                    <linked>
-                      </linked>
-                    <up>down</up>
-                    </Tie>
-                  <next>
-                    <location>
-                      <fractions>1/4</fractions>
-                      </location>
-                    </next>
-                  </Spanner>
                 <pitch>70</pitch>
                 <tpc>12</tpc>
                 </Note>
@@ -9282,18 +9193,10 @@
             <Chord>
               <linked>
                 </linked>
-              <durationType>quarter</durationType>
-              <StemDirection>down</StemDirection>
+              <durationType>eighth</durationType>
               <Note>
                 <linked>
                   </linked>
-                <Spanner type="Tie">
-                  <prev>
-                    <location>
-                      <fractions>-1/4</fractions>
-                      </location>
-                    </prev>
-                  </Spanner>
                 <pitch>70</pitch>
                 <tpc>12</tpc>
                 </Note>
@@ -9626,7 +9529,7 @@
               </Chord>
             </voice>
           </Measure>
-        <Measure len="5/4">
+        <Measure>
           <voice>
             <Beam>
               <StemDirection>down</StemDirection>
@@ -9654,12 +9557,6 @@
                 <tpc>15</tpc>
                 </Note>
               </Chord>
-            <Rest>
-              <linked>
-                </linked>
-              <visible>0</visible>
-              <durationType>quarter</durationType>
-              </Rest>
             <Rest>
               <linked>
                 </linked>
