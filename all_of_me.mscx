@@ -9229,20 +9229,21 @@
       <currentLayer>0</currentLayer>
       <Division>480</Division>
       <Style>
-        <pageWidth>8.5</pageWidth>
-        <pageHeight>11</pageHeight>
-        <pagePrintableWidth>7.72</pagePrintableWidth>
+        <pageWidth>8.27</pageWidth>
+        <pageHeight>11.69</pageHeight>
+        <pagePrintableWidth>7.49</pagePrintableWidth>
         <pageEvenLeftMargin>0.39</pageEvenLeftMargin>
         <pageOddLeftMargin>0.39</pageOddLeftMargin>
         <pageEvenTopMargin>0.39</pageEvenTopMargin>
         <pageEvenBottomMargin>0.79</pageEvenBottomMargin>
         <pageOddTopMargin>0.39</pageOddTopMargin>
         <pageOddBottomMargin>0.79</pageOddBottomMargin>
-        <pageTwosided>0</pageTwosided>
+        <minSystemDistance>7</minSystemDistance>
         <lyricsOddFontFace>Default</lyricsOddFontFace>
-        <lyricsOddFontSize>8</lyricsOddFontSize>
+        <lyricsOddFontSize>10</lyricsOddFontSize>
         <lyricsEvenFontFace>Default</lyricsEvenFontFace>
         <lyricsEvenFontSize>10</lyricsEvenFontSize>
+        <useStandardNoteNames>0</useStandardNoteNames>
         <createMultiMeasureRests>1</createMultiMeasureRests>
         <Spatium>1.4986</Spatium>
         </Style>
@@ -15977,10 +15978,12 @@
         <pageEvenBottomMargin>0.79</pageEvenBottomMargin>
         <pageOddTopMargin>0.39</pageOddTopMargin>
         <pageOddBottomMargin>0.79</pageOddBottomMargin>
+        <minSystemDistance>7</minSystemDistance>
         <lyricsOddFontFace>Default</lyricsOddFontFace>
         <lyricsOddFontSize>10</lyricsOddFontSize>
         <lyricsEvenFontFace>Default</lyricsEvenFontFace>
         <lyricsEvenFontSize>10</lyricsEvenFontSize>
+        <useStandardNoteNames>0</useStandardNoteNames>
         <createMultiMeasureRests>1</createMultiMeasureRests>
         <Spatium>1.4986</Spatium>
         </Style>
