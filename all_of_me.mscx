@@ -103,6 +103,7 @@
         <Channel>
           <controller ctrl="32" value="17"/>
           <program value="52"/>
+          <controller ctrl="7" value="0"/>
           <synti>Fluid</synti>
           <mute>1</mute>
           <midiPort>0</midiPort>
@@ -110,6 +111,7 @@
           </Channel>
         <Channel name="harmony">
           <program value="0"/>
+          <controller ctrl="7" value="0"/>
           <synti>Fluid</synti>
           <mute>1</mute>
           <midiPort>0</midiPort>
@@ -175,8 +177,10 @@
           </Articulation>
         <Channel>
           <controller ctrl="0" value="0"/>
-          <controller ctrl="32" value="0"/>
-          <program value="67"/>
+          <controller ctrl="32" value="17"/>
+          <program value="73"/>
+          <controller ctrl="7" value="80"/>
+          <controller ctrl="10" value="34"/>
           <synti>Fluid</synti>
           <midiPort>0</midiPort>
           <midiChannel>0</midiChannel>
@@ -243,12 +247,16 @@
           <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="40"/>
+          <controller ctrl="7" value="77"/>
+          <controller ctrl="10" value="93"/>
           <synti>Fluid</synti>
           <midiPort>0</midiPort>
           <midiChannel>1</midiChannel>
           </Channel>
         <Channel name="pizzicato">
           <program value="45"/>
+          <controller ctrl="7" value="77"/>
+          <controller ctrl="10" value="93"/>
           <synti>Fluid</synti>
           <midiPort>0</midiPort>
           <midiChannel>2</midiChannel>
@@ -257,6 +265,8 @@
           <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="44"/>
+          <controller ctrl="7" value="77"/>
+          <controller ctrl="10" value="93"/>
           <synti>Fluid</synti>
           <midiPort>0</midiPort>
           <midiChannel>3</midiChannel>
