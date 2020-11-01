@@ -19,7 +19,7 @@
       <pageOddBottomMargin>0.453331</pageOddBottomMargin>
       <pageTwosided>0</pageTwosided>
       <lyricsOddFontFace>Default</lyricsOddFontFace>
-      <lyricsOddFontSize>10</lyricsOddFontSize>
+      <lyricsOddFontSize>8</lyricsOddFontSize>
       <lyricsEvenFontFace>Default</lyricsEvenFontFace>
       <lyricsEvenFontSize>10</lyricsEvenFontSize>
       <Spatium>1.43932</Spatium>
@@ -6046,12 +6046,6 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Lyrics>
-              <no>1</no>
-              <linkedMain/>
-              <text>of</text>
-              </Lyrics>
-            <Lyrics>
-              <no>1</no>
               <linkedMain/>
               <text>of</text>
               </Lyrics>
@@ -6066,7 +6060,6 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Lyrics>
-              <no>1</no>
               <ticks>240</ticks>
               <ticks_f>1/8</ticks_f>
               <linkedMain/>
@@ -9247,7 +9240,7 @@
         <pageOddBottomMargin>0.79</pageOddBottomMargin>
         <pageTwosided>0</pageTwosided>
         <lyricsOddFontFace>Default</lyricsOddFontFace>
-        <lyricsOddFontSize>10</lyricsOddFontSize>
+        <lyricsOddFontSize>8</lyricsOddFontSize>
         <lyricsEvenFontFace>Default</lyricsEvenFontFace>
         <lyricsEvenFontSize>10</lyricsEvenFontSize>
         <createMultiMeasureRests>1</createMultiMeasureRests>
@@ -12293,13 +12286,6 @@
                 </linked>
               <durationType>eighth</durationType>
               <Lyrics>
-                <no>1</no>
-                <linked>
-                  </linked>
-                <text>of</text>
-                </Lyrics>
-              <Lyrics>
-                <no>1</no>
                 <linked>
                   </linked>
                 <text>of</text>
@@ -12317,7 +12303,6 @@
                 </linked>
               <durationType>eighth</durationType>
               <Lyrics>
-                <no>1</no>
                 <ticks>240</ticks>
                 <ticks_f>1/8</ticks_f>
                 <linked>
@@ -12834,10 +12819,17 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
+                <NoteDot>
+                  <visible>0</visible>
+                  </NoteDot>
                 <pitch>65</pitch>
                 <tpc>13</tpc>
                 </Note>
@@ -12846,14 +12838,26 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
+              <Hook>
+                <name>flag8thDown</name>
+                <visible>0</visible>
+                </Hook>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <Tie>
                     <linked>
                       </linked>
+                    <visible>0</visible>
+                    <TieSegment no="0">
+                      <visible>0</visible>
+                      </TieSegment>
                     <up>up</up>
                     </Tie>
                   <next>
@@ -12870,10 +12874,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <prev>
                     <location>
@@ -12889,10 +12897,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>65</pitch>
                 <tpc>13</tpc>
                 </Note>
@@ -12906,10 +12918,17 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
+                <NoteDot>
+                  <visible>0</visible>
+                  </NoteDot>
                 <pitch>65</pitch>
                 <tpc>13</tpc>
                 </Note>
@@ -12918,14 +12937,26 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
+              <Hook>
+                <name>flag8thDown</name>
+                <visible>0</visible>
+                </Hook>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <Tie>
                     <linked>
                       </linked>
+                    <visible>0</visible>
+                    <TieSegment no="0">
+                      <visible>0</visible>
+                      </TieSegment>
                     <up>up</up>
                     </Tie>
                   <next>
@@ -12942,10 +12973,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <prev>
                     <location>
@@ -12961,10 +12996,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>65</pitch>
                 <tpc>13</tpc>
                 </Note>
@@ -12978,10 +13017,17 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
+                <NoteDot>
+                  <visible>0</visible>
+                  </NoteDot>
                 <pitch>63</pitch>
                 <tpc>11</tpc>
                 </Note>
@@ -12990,14 +13036,26 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
+              <Hook>
+                <name>flag8thDown</name>
+                <visible>0</visible>
+                </Hook>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <Tie>
                     <linked>
                       </linked>
+                    <visible>0</visible>
+                    <TieSegment no="0">
+                      <visible>0</visible>
+                      </TieSegment>
                     <up>up</up>
                     </Tie>
                   <next>
@@ -13014,10 +13072,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <prev>
                     <location>
@@ -13033,10 +13095,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>63</pitch>
                 <tpc>11</tpc>
                 </Note>
@@ -13050,10 +13116,17 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
+                <NoteDot>
+                  <visible>0</visible>
+                  </NoteDot>
                 <pitch>63</pitch>
                 <tpc>11</tpc>
                 </Note>
@@ -13062,14 +13135,26 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
+              <Hook>
+                <name>flag8thDown</name>
+                <visible>0</visible>
+                </Hook>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <Tie>
                     <linked>
                       </linked>
+                    <visible>0</visible>
+                    <TieSegment no="0">
+                      <visible>0</visible>
+                      </TieSegment>
                     <up>up</up>
                     </Tie>
                   <next>
@@ -13086,10 +13171,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <prev>
                     <location>
@@ -13105,10 +13194,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>63</pitch>
                 <tpc>11</tpc>
                 </Note>
@@ -13126,10 +13219,17 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
+                <NoteDot>
+                  <visible>0</visible>
+                  </NoteDot>
                 <pitch>65</pitch>
                 <tpc>13</tpc>
                 </Note>
@@ -13138,14 +13238,26 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
+              <Hook>
+                <name>flag8thDown</name>
+                <visible>0</visible>
+                </Hook>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <Tie>
                     <linked>
                       </linked>
+                    <visible>0</visible>
+                    <TieSegment no="0">
+                      <visible>0</visible>
+                      </TieSegment>
                     <up>up</up>
                     </Tie>
                   <next>
@@ -13162,10 +13274,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <prev>
                     <location>
@@ -13181,10 +13297,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>65</pitch>
                 <tpc>13</tpc>
                 </Note>
@@ -13198,10 +13318,17 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
+                <NoteDot>
+                  <visible>0</visible>
+                  </NoteDot>
                 <pitch>61</pitch>
                 <tpc>9</tpc>
                 </Note>
@@ -13210,14 +13337,26 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
+              <Hook>
+                <name>flag8thDown</name>
+                <visible>0</visible>
+                </Hook>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <Tie>
                     <linked>
                       </linked>
+                    <visible>0</visible>
+                    <TieSegment no="0">
+                      <visible>0</visible>
+                      </TieSegment>
                     <up>up</up>
                     </Tie>
                   <next>
@@ -13234,10 +13373,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <prev>
                     <location>
@@ -13253,10 +13396,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>61</pitch>
                 <tpc>9</tpc>
                 </Note>
@@ -13270,10 +13417,17 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>up</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
+                <NoteDot>
+                  <visible>0</visible>
+                  </NoteDot>
                 <pitch>60</pitch>
                 <tpc>14</tpc>
                 </Note>
@@ -13282,14 +13436,26 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
+              <Hook>
+                <name>flag8thDown</name>
+                <visible>0</visible>
+                </Hook>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <Tie>
                     <linked>
                       </linked>
+                    <visible>0</visible>
+                    <TieSegment no="0">
+                      <visible>0</visible>
+                      </TieSegment>
                     <up>up</up>
                     </Tie>
                   <next>
@@ -13306,10 +13472,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <prev>
                     <location>
@@ -13325,10 +13495,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>68</pitch>
                 <tpc>10</tpc>
                 </Note>
@@ -13342,10 +13516,17 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
+                <NoteDot>
+                  <visible>0</visible>
+                  </NoteDot>
                 <pitch>63</pitch>
                 <tpc>11</tpc>
                 </Note>
@@ -13354,14 +13535,26 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
+              <Hook>
+                <name>flag8thDown</name>
+                <visible>0</visible>
+                </Hook>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <Tie>
                     <linked>
                       </linked>
+                    <visible>0</visible>
+                    <TieSegment no="0">
+                      <visible>0</visible>
+                      </TieSegment>
                     <up>up</up>
                     </Tie>
                   <next>
@@ -13378,10 +13571,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <prev>
                     <location>
@@ -13397,10 +13594,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>63</pitch>
                 <tpc>11</tpc>
                 </Note>
@@ -13414,10 +13615,17 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
+                <NoteDot>
+                  <visible>0</visible>
+                  </NoteDot>
                 <pitch>65</pitch>
                 <tpc>13</tpc>
                 </Note>
@@ -13426,14 +13634,26 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
+              <Hook>
+                <name>flag8thDown</name>
+                <visible>0</visible>
+                </Hook>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <Tie>
                     <linked>
                       </linked>
+                    <visible>0</visible>
+                    <TieSegment no="0">
+                      <visible>0</visible>
+                      </TieSegment>
                     <up>up</up>
                     </Tie>
                   <next>
@@ -13450,10 +13670,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <prev>
                     <location>
@@ -13469,10 +13693,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>65</pitch>
                 <tpc>13</tpc>
                 </Note>
@@ -13486,10 +13714,17 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
+                <NoteDot>
+                  <visible>0</visible>
+                  </NoteDot>
                 <pitch>65</pitch>
                 <tpc>13</tpc>
                 </Note>
@@ -13498,14 +13733,26 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
+              <Hook>
+                <name>flag8thDown</name>
+                <visible>0</visible>
+                </Hook>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <Tie>
                     <linked>
                       </linked>
+                    <visible>0</visible>
+                    <TieSegment no="0">
+                      <visible>0</visible>
+                      </TieSegment>
                     <up>up</up>
                     </Tie>
                   <next>
@@ -13522,10 +13769,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <prev>
                     <location>
@@ -13541,10 +13792,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>61</pitch>
                 <tpc>9</tpc>
                 </Note>
@@ -13558,10 +13813,17 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
+                <NoteDot>
+                  <visible>0</visible>
+                  </NoteDot>
                 <pitch>63</pitch>
                 <tpc>11</tpc>
                 </Note>
@@ -13570,14 +13832,26 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
+              <Hook>
+                <name>flag8thDown</name>
+                <visible>0</visible>
+                </Hook>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <Tie>
                     <linked>
                       </linked>
+                    <visible>0</visible>
+                    <TieSegment no="0">
+                      <visible>0</visible>
+                      </TieSegment>
                     <up>up</up>
                     </Tie>
                   <next>
@@ -13594,10 +13868,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <prev>
                     <location>
@@ -13613,10 +13891,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>up</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>60</pitch>
                 <tpc>14</tpc>
                 </Note>
@@ -13630,10 +13912,17 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
+                <NoteDot>
+                  <visible>0</visible>
+                  </NoteDot>
                 <pitch>63</pitch>
                 <tpc>11</tpc>
                 </Note>
@@ -13642,14 +13931,26 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
+              <Hook>
+                <name>flag8thDown</name>
+                <visible>0</visible>
+                </Hook>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <Tie>
                     <linked>
                       </linked>
+                    <visible>0</visible>
+                    <TieSegment no="0">
+                      <visible>0</visible>
+                      </TieSegment>
                     <up>up</up>
                     </Tie>
                   <next>
@@ -13666,10 +13967,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <prev>
                     <location>
@@ -13685,10 +13990,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>63</pitch>
                 <tpc>11</tpc>
                 </Note>
@@ -13702,10 +14011,17 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
+                <NoteDot>
+                  <visible>0</visible>
+                  </NoteDot>
                 <pitch>65</pitch>
                 <tpc>13</tpc>
                 </Note>
@@ -13714,14 +14030,26 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
+              <Hook>
+                <name>flag8thDown</name>
+                <visible>0</visible>
+                </Hook>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <Tie>
                     <linked>
                       </linked>
+                    <visible>0</visible>
+                    <TieSegment no="0">
+                      <visible>0</visible>
+                      </TieSegment>
                     <up>up</up>
                     </Tie>
                   <next>
@@ -13738,10 +14066,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <prev>
                     <location>
@@ -13757,10 +14089,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>65</pitch>
                 <tpc>13</tpc>
                 </Note>
@@ -13774,10 +14110,17 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
+                <NoteDot>
+                  <visible>0</visible>
+                  </NoteDot>
                 <pitch>61</pitch>
                 <tpc>9</tpc>
                 </Note>
@@ -13786,14 +14129,26 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
+              <Hook>
+                <name>flag8thDown</name>
+                <visible>0</visible>
+                </Hook>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <Tie>
                     <linked>
                       </linked>
+                    <visible>0</visible>
+                    <TieSegment no="0">
+                      <visible>0</visible>
+                      </TieSegment>
                     <up>up</up>
                     </Tie>
                   <next>
@@ -13810,10 +14165,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <prev>
                     <location>
@@ -13829,10 +14188,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>61</pitch>
                 <tpc>9</tpc>
                 </Note>
@@ -13846,10 +14209,17 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>up</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
+                <NoteDot>
+                  <visible>0</visible>
+                  </NoteDot>
                 <pitch>60</pitch>
                 <tpc>14</tpc>
                 </Note>
@@ -13858,14 +14228,26 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
+              <Hook>
+                <name>flag8thDown</name>
+                <visible>0</visible>
+                </Hook>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <Tie>
                     <linked>
                       </linked>
+                    <visible>0</visible>
+                    <TieSegment no="0">
+                      <visible>0</visible>
+                      </TieSegment>
                     <up>up</up>
                     </Tie>
                   <next>
@@ -13882,10 +14264,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <prev>
                     <location>
@@ -13901,10 +14287,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>68</pitch>
                 <tpc>10</tpc>
                 </Note>
@@ -13918,10 +14308,17 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
+                <NoteDot>
+                  <visible>0</visible>
+                  </NoteDot>
                 <pitch>63</pitch>
                 <tpc>11</tpc>
                 </Note>
@@ -13930,14 +14327,26 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
+              <Hook>
+                <name>flag8thDown</name>
+                <visible>0</visible>
+                </Hook>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <Tie>
                     <linked>
                       </linked>
+                    <visible>0</visible>
+                    <TieSegment no="0">
+                      <visible>0</visible>
+                      </TieSegment>
                     <up>up</up>
                     </Tie>
                   <next>
@@ -13954,10 +14363,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <prev>
                     <location>
@@ -13973,10 +14386,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>63</pitch>
                 <tpc>11</tpc>
                 </Note>
@@ -13990,10 +14407,17 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
+                <NoteDot>
+                  <visible>0</visible>
+                  </NoteDot>
                 <pitch>65</pitch>
                 <tpc>13</tpc>
                 </Note>
@@ -14002,14 +14426,26 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
+              <Hook>
+                <name>flag8thDown</name>
+                <visible>0</visible>
+                </Hook>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <Tie>
                     <linked>
                       </linked>
+                    <visible>0</visible>
+                    <TieSegment no="0">
+                      <visible>0</visible>
+                      </TieSegment>
                     <up>up</up>
                     </Tie>
                   <next>
@@ -14026,10 +14462,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <prev>
                     <location>
@@ -14045,10 +14485,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>65</pitch>
                 <tpc>13</tpc>
                 </Note>
@@ -14062,10 +14506,17 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
+                <NoteDot>
+                  <visible>0</visible>
+                  </NoteDot>
                 <pitch>65</pitch>
                 <tpc>13</tpc>
                 </Note>
@@ -14074,14 +14525,26 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
+              <Hook>
+                <name>flag8thDown</name>
+                <visible>0</visible>
+                </Hook>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <Tie>
                     <linked>
                       </linked>
+                    <visible>0</visible>
+                    <TieSegment no="0">
+                      <visible>0</visible>
+                      </TieSegment>
                     <up>up</up>
                     </Tie>
                   <next>
@@ -14098,10 +14561,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <prev>
                     <location>
@@ -14117,10 +14584,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>61</pitch>
                 <tpc>9</tpc>
                 </Note>
@@ -14134,10 +14605,17 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
+                <NoteDot>
+                  <visible>0</visible>
+                  </NoteDot>
                 <pitch>63</pitch>
                 <tpc>11</tpc>
                 </Note>
@@ -14146,14 +14624,26 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
+              <Hook>
+                <name>flag8thDown</name>
+                <visible>0</visible>
+                </Hook>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <Tie>
                     <linked>
                       </linked>
+                    <visible>0</visible>
+                    <TieSegment no="0">
+                      <visible>0</visible>
+                      </TieSegment>
                     <up>up</up>
                     </Tie>
                   <next>
@@ -14170,10 +14660,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <prev>
                     <location>
@@ -14189,10 +14683,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>up</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>60</pitch>
                 <tpc>14</tpc>
                 </Note>
@@ -14206,10 +14704,17 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
+                <NoteDot>
+                  <visible>0</visible>
+                  </NoteDot>
                 <pitch>63</pitch>
                 <tpc>11</tpc>
                 </Note>
@@ -14218,14 +14723,26 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
+              <Hook>
+                <name>flag8thDown</name>
+                <visible>0</visible>
+                </Hook>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <Tie>
                     <linked>
                       </linked>
+                    <visible>0</visible>
+                    <TieSegment no="0">
+                      <visible>0</visible>
+                      </TieSegment>
                     <up>up</up>
                     </Tie>
                   <next>
@@ -14242,10 +14759,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <prev>
                     <location>
@@ -14261,10 +14782,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>63</pitch>
                 <tpc>11</tpc>
                 </Note>
@@ -14282,10 +14807,17 @@
                 </linked>
               <dots>1</dots>
               <durationType>half</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
+                <NoteDot>
+                  <visible>0</visible>
+                  </NoteDot>
                 <pitch>70</pitch>
                 <tpc>12</tpc>
                 </Note>
@@ -14293,6 +14825,7 @@
             <Rest>
               <linked>
                 </linked>
+              <visible>0</visible>
               <durationType>quarter</durationType>
               </Rest>
             </voice>
@@ -14304,10 +14837,17 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
+                <NoteDot>
+                  <visible>0</visible>
+                  </NoteDot>
                 <pitch>73</pitch>
                 <tpc>9</tpc>
                 </Note>
@@ -14316,14 +14856,26 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
+              <Hook>
+                <name>flag8thDown</name>
+                <visible>0</visible>
+                </Hook>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <Tie>
                     <linked>
                       </linked>
+                    <visible>0</visible>
+                    <TieSegment no="0">
+                      <visible>0</visible>
+                      </TieSegment>
                     <up>up</up>
                     </Tie>
                   <next>
@@ -14340,10 +14892,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <prev>
                     <location>
@@ -14359,10 +14915,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>70</pitch>
                 <tpc>12</tpc>
                 </Note>
@@ -14376,10 +14936,17 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
+                <NoteDot>
+                  <visible>0</visible>
+                  </NoteDot>
                 <pitch>68</pitch>
                 <tpc>10</tpc>
                 </Note>
@@ -14388,14 +14955,26 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
+              <Hook>
+                <name>flag8thDown</name>
+                <visible>0</visible>
+                </Hook>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <Tie>
                     <linked>
                       </linked>
+                    <visible>0</visible>
+                    <TieSegment no="0">
+                      <visible>0</visible>
+                      </TieSegment>
                     <up>up</up>
                     </Tie>
                   <next>
@@ -14412,10 +14991,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <prev>
                     <location>
@@ -14431,10 +15014,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>65</pitch>
                 <tpc>13</tpc>
                 </Note>
@@ -14448,10 +15035,17 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
+                <NoteDot>
+                  <visible>0</visible>
+                  </NoteDot>
                 <pitch>63</pitch>
                 <tpc>11</tpc>
                 </Note>
@@ -14460,14 +15054,26 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
+              <Hook>
+                <name>flag8thDown</name>
+                <visible>0</visible>
+                </Hook>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <Tie>
                     <linked>
                       </linked>
+                    <visible>0</visible>
+                    <TieSegment no="0">
+                      <visible>0</visible>
+                      </TieSegment>
                     <up>up</up>
                     </Tie>
                   <next>
@@ -14484,10 +15090,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <prev>
                     <location>
@@ -14503,10 +15113,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>up</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>60</pitch>
                 <tpc>14</tpc>
                 </Note>
@@ -14520,10 +15134,17 @@
                 </linked>
               <dots>1</dots>
               <durationType>half</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
+                <NoteDot>
+                  <visible>0</visible>
+                  </NoteDot>
                 <pitch>61</pitch>
                 <tpc>9</tpc>
                 </Note>
@@ -14531,6 +15152,7 @@
             <Rest>
               <linked>
                 </linked>
+              <visible>0</visible>
               <durationType>quarter</durationType>
               </Rest>
             </voice>
@@ -14541,22 +15163,33 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>73</pitch>
                 <tpc>9</tpc>
                 </Note>
               </Chord>
+            <Beam>
+              <visible>0</visible>
+              </Beam>
             <Chord>
               <linked>
                 </linked>
               <BeamMode>begin</BeamMode>
               <durationType>eighth</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>73</pitch>
                 <tpc>9</tpc>
                 </Note>
@@ -14565,9 +15198,13 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>72</pitch>
                 <tpc>14</tpc>
                 </Note>
@@ -14576,10 +15213,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>70</pitch>
                 <tpc>12</tpc>
                 </Note>
@@ -14592,22 +15233,33 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>68</pitch>
                 <tpc>10</tpc>
                 </Note>
               </Chord>
+            <Beam>
+              <visible>0</visible>
+              </Beam>
             <Chord>
               <linked>
                 </linked>
               <BeamMode>begin</BeamMode>
               <durationType>eighth</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>68</pitch>
                 <tpc>10</tpc>
                 </Note>
@@ -14616,9 +15268,13 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>67</pitch>
                 <tpc>15</tpc>
                 </Note>
@@ -14627,10 +15283,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>65</pitch>
                 <tpc>13</tpc>
                 </Note>
@@ -14643,10 +15303,14 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>63</pitch>
                 <tpc>11</tpc>
                 </Note>
@@ -14654,6 +15318,7 @@
             <Rest>
               <linked>
                 </linked>
+              <visible>0</visible>
               <durationType>half</durationType>
               </Rest>
             <BarLine>
@@ -14669,10 +15334,17 @@
                 </linked>
               <dots>1</dots>
               <durationType>half</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
+                <NoteDot>
+                  <visible>0</visible>
+                  </NoteDot>
                 <pitch>68</pitch>
                 <tpc>10</tpc>
                 </Note>
@@ -14681,10 +15353,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>68</pitch>
                 <tpc>10</tpc>
                 </Note>
@@ -14697,10 +15373,14 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>68</pitch>
                 <tpc>10</tpc>
                 </Note>
@@ -14709,10 +15389,14 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>68</pitch>
                 <tpc>10</tpc>
                 </Note>
@@ -14726,10 +15410,17 @@
                 </linked>
               <dots>1</dots>
               <durationType>half</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
+                <NoteDot>
+                  <visible>0</visible>
+                  </NoteDot>
                 <pitch>65</pitch>
                 <tpc>13</tpc>
                 </Note>
@@ -14738,10 +15429,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>65</pitch>
                 <tpc>13</tpc>
                 </Note>
@@ -14754,10 +15449,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>65</pitch>
                 <tpc>13</tpc>
                 </Note>
@@ -14765,16 +15464,25 @@
             <Rest>
               <linked>
                 </linked>
+              <visible>0</visible>
               <durationType>quarter</durationType>
               </Rest>
             <Chord>
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
+              <Hook>
+                <name>flag8thDown</name>
+                <visible>0</visible>
+                </Hook>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>65</pitch>
                 <tpc>13</tpc>
                 </Note>
@@ -14784,10 +15492,17 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
+                <NoteDot>
+                  <visible>0</visible>
+                  </NoteDot>
                 <pitch>65</pitch>
                 <tpc>13</tpc>
                 </Note>
@@ -14800,10 +15515,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>61</pitch>
                 <tpc>9</tpc>
                 </Note>
@@ -14812,10 +15531,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>61</pitch>
                 <tpc>9</tpc>
                 </Note>
@@ -14824,10 +15547,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>61</pitch>
                 <tpc>9</tpc>
                 </Note>
@@ -14836,10 +15563,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>up</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>60</pitch>
                 <tpc>14</tpc>
                 </Note>
@@ -14848,14 +15579,21 @@
           </Measure>
         <Measure>
           <voice>
+            <Beam>
+              <visible>0</visible>
+              </Beam>
             <Chord>
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>61</pitch>
                 <tpc>9</tpc>
                 </Note>
@@ -14864,9 +15602,13 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>61</pitch>
                 <tpc>9</tpc>
                 </Note>
@@ -14874,16 +15616,25 @@
             <Rest>
               <linked>
                 </linked>
+              <visible>0</visible>
               <durationType>quarter</durationType>
               </Rest>
             <Chord>
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
+              <Hook>
+                <name>flag8thDown</name>
+                <visible>0</visible>
+                </Hook>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>61</pitch>
                 <tpc>9</tpc>
                 </Note>
@@ -14893,10 +15644,17 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
+                <NoteDot>
+                  <visible>0</visible>
+                  </NoteDot>
                 <pitch>61</pitch>
                 <tpc>9</tpc>
                 </Note>
@@ -14909,10 +15667,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>61</pitch>
                 <tpc>9</tpc>
                 </Note>
@@ -14921,10 +15683,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>61</pitch>
                 <tpc>9</tpc>
                 </Note>
@@ -14933,10 +15699,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>61</pitch>
                 <tpc>9</tpc>
                 </Note>
@@ -14945,10 +15715,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>61</pitch>
                 <tpc>9</tpc>
                 </Note>
@@ -14957,14 +15731,21 @@
           </Measure>
         <Measure>
           <voice>
+            <Beam>
+              <visible>0</visible>
+              </Beam>
             <Chord>
               <linked>
                 </linked>
               <BeamMode>begin</BeamMode>
               <durationType>eighth</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>61</pitch>
                 <tpc>9</tpc>
                 </Note>
@@ -14973,9 +15754,13 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>61</pitch>
                 <tpc>9</tpc>
                 </Note>
@@ -14983,16 +15768,25 @@
             <Rest>
               <linked>
                 </linked>
+              <visible>0</visible>
               <durationType>quarter</durationType>
               </Rest>
             <Chord>
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
+              <Hook>
+                <name>flag8thDown</name>
+                <visible>0</visible>
+                </Hook>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>72</pitch>
                 <tpc>14</tpc>
                 </Note>
@@ -15002,10 +15796,17 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
+                <NoteDot>
+                  <visible>0</visible>
+                  </NoteDot>
                 <pitch>72</pitch>
                 <tpc>14</tpc>
                 </Note>
@@ -15019,10 +15820,17 @@
                 </linked>
               <dots>1</dots>
               <durationType>half</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
+                <NoteDot>
+                  <visible>0</visible>
+                  </NoteDot>
                 <pitch>75</pitch>
                 <tpc>11</tpc>
                 </Note>
@@ -15031,10 +15839,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>72</pitch>
                 <tpc>14</tpc>
                 </Note>
@@ -15047,10 +15859,14 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>77</pitch>
                 <tpc>13</tpc>
                 </Note>
@@ -15059,10 +15875,14 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>72</pitch>
                 <tpc>14</tpc>
                 </Note>
@@ -15076,10 +15896,17 @@
                 </linked>
               <dots>1</dots>
               <durationType>half</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
+                <NoteDot>
+                  <visible>0</visible>
+                  </NoteDot>
                 <pitch>70</pitch>
                 <tpc>12</tpc>
                 </Note>
@@ -15088,10 +15915,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>68</pitch>
                 <tpc>10</tpc>
                 </Note>
@@ -15104,10 +15935,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>72</pitch>
                 <tpc>14</tpc>
                 </Note>
@@ -15115,16 +15950,25 @@
             <Rest>
               <linked>
                 </linked>
+              <visible>0</visible>
               <durationType>quarter</durationType>
               </Rest>
             <Chord>
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
+              <Hook>
+                <name>flag8thDown</name>
+                <visible>0</visible>
+                </Hook>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>72</pitch>
                 <tpc>14</tpc>
                 </Note>
@@ -15134,10 +15978,17 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
+                <NoteDot>
+                  <visible>0</visible>
+                  </NoteDot>
                 <pitch>72</pitch>
                 <tpc>14</tpc>
                 </Note>
@@ -15150,10 +16001,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>70</pitch>
                 <tpc>12</tpc>
                 </Note>
@@ -15162,10 +16017,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>70</pitch>
                 <tpc>12</tpc>
                 </Note>
@@ -15174,10 +16033,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>70</pitch>
                 <tpc>12</tpc>
                 </Note>
@@ -15186,10 +16049,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>68</pitch>
                 <tpc>10</tpc>
                 </Note>
@@ -15198,14 +16065,21 @@
           </Measure>
         <Measure>
           <voice>
+            <Beam>
+              <visible>0</visible>
+              </Beam>
             <Chord>
               <linked>
                 </linked>
               <BeamMode>begin</BeamMode>
               <durationType>eighth</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>70</pitch>
                 <tpc>12</tpc>
                 </Note>
@@ -15214,9 +16088,13 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>70</pitch>
                 <tpc>12</tpc>
                 </Note>
@@ -15224,16 +16102,25 @@
             <Rest>
               <linked>
                 </linked>
+              <visible>0</visible>
               <durationType>quarter</durationType>
               </Rest>
             <Chord>
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
+              <Hook>
+                <name>flag8thDown</name>
+                <visible>0</visible>
+                </Hook>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>72</pitch>
                 <tpc>14</tpc>
                 </Note>
@@ -15243,10 +16130,17 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
+                <NoteDot>
+                  <visible>0</visible>
+                  </NoteDot>
                 <pitch>72</pitch>
                 <tpc>14</tpc>
                 </Note>
@@ -15259,10 +16153,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>70</pitch>
                 <tpc>12</tpc>
                 </Note>
@@ -15271,10 +16169,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>70</pitch>
                 <tpc>12</tpc>
                 </Note>
@@ -15283,10 +16185,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>70</pitch>
                 <tpc>12</tpc>
                 </Note>
@@ -15295,10 +16201,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>68</pitch>
                 <tpc>10</tpc>
                 </Note>
@@ -15307,14 +16217,21 @@
           </Measure>
         <Measure>
           <voice>
+            <Beam>
+              <visible>0</visible>
+              </Beam>
             <Chord>
               <linked>
                 </linked>
               <BeamMode>begin</BeamMode>
               <durationType>eighth</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>70</pitch>
                 <tpc>12</tpc>
                 </Note>
@@ -15323,9 +16240,13 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>70</pitch>
                 <tpc>12</tpc>
                 </Note>
@@ -15333,16 +16254,21 @@
             <Rest>
               <linked>
                 </linked>
+              <visible>0</visible>
               <durationType>quarter</durationType>
               </Rest>
             <Chord>
               <linked>
                 </linked>
               <durationType>half</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>67</pitch>
                 <tpc>15</tpc>
                 </Note>
@@ -15361,12 +16287,17 @@
               <dots>1</dots>
               <durationType>quarter</durationType>
               <Stem>
+                <visible>0</visible>
                 <userLen>0.0815992</userLen>
                 </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
+                <NoteDot>
+                  <visible>0</visible>
+                  </NoteDot>
                 <pitch>65</pitch>
                 <tpc>13</tpc>
                 </Note>
@@ -15375,14 +16306,26 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
+              <Hook>
+                <name>flag8thDown</name>
+                <visible>0</visible>
+                </Hook>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <Tie>
                     <linked>
                       </linked>
+                    <visible>0</visible>
+                    <TieSegment no="0">
+                      <visible>0</visible>
+                      </TieSegment>
                     <up>up</up>
                     </Tie>
                   <next>
@@ -15400,10 +16343,17 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
+                <NoteDot>
+                  <visible>0</visible>
+                  </NoteDot>
                 <Spanner type="Tie">
                   <prev>
                     <location>
@@ -15418,6 +16368,7 @@
             <Rest>
               <linked>
                 </linked>
+              <visible>0</visible>
               <durationType>eighth</durationType>
               </Rest>
             </voice>
@@ -15429,10 +16380,17 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
+                <NoteDot>
+                  <visible>0</visible>
+                  </NoteDot>
                 <pitch>61</pitch>
                 <tpc>9</tpc>
                 </Note>
@@ -15445,6 +16403,10 @@
                 <Slur>
                   <linked>
                     </linked>
+                  <visible>0</visible>
+                  <SlurSegment no="0">
+                    <visible>0</visible>
+                    </SlurSegment>
                   </Slur>
                 <next>
                   <location>
@@ -15452,10 +16414,18 @@
                     </location>
                   </next>
                 </Spanner>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
+              <Hook>
+                <name>flag8thDown</name>
+                <visible>0</visible>
+                </Hook>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>61</pitch>
                 <tpc>9</tpc>
                 </Note>
@@ -15471,10 +16441,14 @@
                     </location>
                   </prev>
                 </Spanner>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>61</pitch>
                 <tpc>9</tpc>
                 </Note>
@@ -15483,10 +16457,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>61</pitch>
                 <tpc>9</tpc>
                 </Note>
@@ -15500,10 +16478,17 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
+                <NoteDot>
+                  <visible>0</visible>
+                  </NoteDot>
                 <pitch>63</pitch>
                 <tpc>11</tpc>
                 </Note>
@@ -15512,14 +16497,26 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
+              <Hook>
+                <name>flag8thDown</name>
+                <visible>0</visible>
+                </Hook>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <Tie>
                     <linked>
                       </linked>
+                    <visible>0</visible>
+                    <TieSegment no="0">
+                      <visible>0</visible>
+                      </TieSegment>
                     <up>up</up>
                     </Tie>
                   <next>
@@ -15536,10 +16533,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <prev>
                     <location>
@@ -15555,82 +16556,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
-                <pitch>63</pitch>
-                <tpc>11</tpc>
-                </Note>
-              </Chord>
-            </voice>
-          </Measure>
-        <Measure>
-          <voice>
-            <Chord>
-              <linked>
-                </linked>
-              <dots>1</dots>
-              <durationType>quarter</durationType>
-              <StemDirection>down</StemDirection>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>63</pitch>
-                <tpc>11</tpc>
-                </Note>
-              </Chord>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>eighth</durationType>
-              <StemDirection>down</StemDirection>
-              <Note>
-                <linked>
-                  </linked>
-                <Spanner type="Tie">
-                  <Tie>
-                    <linked>
-                      </linked>
-                    <up>up</up>
-                    </Tie>
-                  <next>
-                    <location>
-                      <fractions>1/8</fractions>
-                      </location>
-                    </next>
-                  </Spanner>
-                <pitch>63</pitch>
-                <tpc>11</tpc>
-                </Note>
-              </Chord>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>quarter</durationType>
-              <StemDirection>down</StemDirection>
-              <Note>
-                <linked>
-                  </linked>
-                <Spanner type="Tie">
-                  <prev>
-                    <location>
-                      <fractions>-1/8</fractions>
-                      </location>
-                    </prev>
-                  </Spanner>
-                <pitch>63</pitch>
-                <tpc>11</tpc>
-                </Note>
-              </Chord>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>quarter</durationType>
-              <StemDirection>down</StemDirection>
-              <Note>
-                <linked>
-                  </linked>
+                <visible>0</visible>
                 <pitch>63</pitch>
                 <tpc>11</tpc>
                 </Note>
@@ -15645,12 +16578,116 @@
               <dots>1</dots>
               <durationType>quarter</durationType>
               <Stem>
+                <visible>0</visible>
+                </Stem>
+              <StemDirection>down</StemDirection>
+              <Note>
+                <linked>
+                  </linked>
+                <visible>0</visible>
+                <NoteDot>
+                  <visible>0</visible>
+                  </NoteDot>
+                <pitch>63</pitch>
+                <tpc>11</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
+              <Hook>
+                <name>flag8thDown</name>
+                <visible>0</visible>
+                </Hook>
+              <StemDirection>down</StemDirection>
+              <Note>
+                <linked>
+                  </linked>
+                <visible>0</visible>
+                <Spanner type="Tie">
+                  <Tie>
+                    <linked>
+                      </linked>
+                    <visible>0</visible>
+                    <TieSegment no="0">
+                      <visible>0</visible>
+                      </TieSegment>
+                    <up>up</up>
+                    </Tie>
+                  <next>
+                    <location>
+                      <fractions>1/8</fractions>
+                      </location>
+                    </next>
+                  </Spanner>
+                <pitch>63</pitch>
+                <tpc>11</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
+              <StemDirection>down</StemDirection>
+              <Note>
+                <linked>
+                  </linked>
+                <visible>0</visible>
+                <Spanner type="Tie">
+                  <prev>
+                    <location>
+                      <fractions>-1/8</fractions>
+                      </location>
+                    </prev>
+                  </Spanner>
+                <pitch>63</pitch>
+                <tpc>11</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
+              <StemDirection>down</StemDirection>
+              <Note>
+                <linked>
+                  </linked>
+                <visible>0</visible>
+                <pitch>63</pitch>
+                <tpc>11</tpc>
+                </Note>
+              </Chord>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Chord>
+              <linked>
+                </linked>
+              <dots>1</dots>
+              <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
                 <userLen>0.0815992</userLen>
                 </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
+                <NoteDot>
+                  <visible>0</visible>
+                  </NoteDot>
                 <pitch>65</pitch>
                 <tpc>13</tpc>
                 </Note>
@@ -15659,14 +16696,26 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
+              <Hook>
+                <name>flag8thDown</name>
+                <visible>0</visible>
+                </Hook>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <Tie>
                     <linked>
                       </linked>
+                    <visible>0</visible>
+                    <TieSegment no="0">
+                      <visible>0</visible>
+                      </TieSegment>
                     <up>up</up>
                     </Tie>
                   <next>
@@ -15684,10 +16733,17 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
+                <NoteDot>
+                  <visible>0</visible>
+                  </NoteDot>
                 <Spanner type="Tie">
                   <prev>
                     <location>
@@ -15707,6 +16763,10 @@
                 <Slur>
                   <linked>
                     </linked>
+                  <visible>0</visible>
+                  <SlurSegment no="0">
+                    <visible>0</visible>
+                    </SlurSegment>
                   </Slur>
                 <next>
                   <location>
@@ -15715,9 +16775,17 @@
                     </location>
                   </next>
                 </Spanner>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
+              <Hook>
+                <name>flag8thUp</name>
+                <visible>0</visible>
+                </Hook>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>61</pitch>
                 <tpc>9</tpc>
                 </Note>
@@ -15739,10 +16807,17 @@
                     </location>
                   </prev>
                 </Spanner>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
+                <NoteDot>
+                  <visible>0</visible>
+                  </NoteDot>
                 <pitch>61</pitch>
                 <tpc>9</tpc>
                 </Note>
@@ -15751,14 +16826,26 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
+              <Hook>
+                <name>flag8thDown</name>
+                <visible>0</visible>
+                </Hook>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <Tie>
                     <linked>
                       </linked>
+                    <visible>0</visible>
+                    <TieSegment no="0">
+                      <visible>0</visible>
+                      </TieSegment>
                     <up>up</up>
                     </Tie>
                   <next>
@@ -15775,10 +16862,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <prev>
                     <location>
@@ -15790,14 +16881,21 @@
                 <tpc>9</tpc>
                 </Note>
               </Chord>
+            <Beam>
+              <visible>0</visible>
+              </Beam>
             <Chord>
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>61</pitch>
                 <tpc>9</tpc>
                 </Note>
@@ -15810,6 +16908,10 @@
                 <Slur>
                   <linked>
                     </linked>
+                  <visible>0</visible>
+                  <SlurSegment no="0">
+                    <visible>0</visible>
+                    </SlurSegment>
                   </Slur>
                 <next>
                   <location>
@@ -15818,9 +16920,13 @@
                     </location>
                   </next>
                 </Spanner>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>63</pitch>
                 <tpc>11</tpc>
                 </Note>
@@ -15842,10 +16948,17 @@
                     </location>
                   </prev>
                 </Spanner>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
+                <NoteDot>
+                  <visible>0</visible>
+                  </NoteDot>
                 <pitch>63</pitch>
                 <tpc>11</tpc>
                 </Note>
@@ -15854,14 +16967,26 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
+              <Hook>
+                <name>flag8thDown</name>
+                <visible>0</visible>
+                </Hook>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <Tie>
                     <linked>
                       </linked>
+                    <visible>0</visible>
+                    <TieSegment no="0">
+                      <visible>0</visible>
+                      </TieSegment>
                     <up>up</up>
                     </Tie>
                   <next>
@@ -15878,10 +17003,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <Spanner type="Tie">
                   <prev>
                     <location>
@@ -15897,10 +17026,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>63</pitch>
                 <tpc>11</tpc>
                 </Note>
@@ -15913,10 +17046,14 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>63</pitch>
                 <tpc>11</tpc>
                 </Note>
@@ -15925,10 +17062,14 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
+              <Stem>
+                <visible>0</visible>
+                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>61</pitch>
                 <tpc>9</tpc>
                 </Note>
@@ -15941,6 +17082,7 @@
               <subtype>fermataAbove</subtype>
               <linked>
                 </linked>
+              <visible>0</visible>
               </Fermata>
             <Chord>
               <linked>
@@ -15949,6 +17091,7 @@
               <Note>
                 <linked>
                   </linked>
+                <visible>0</visible>
                 <pitch>60</pitch>
                 <tpc>14</tpc>
                 </Note>
@@ -23190,14 +24333,6 @@
                 </linked>
               <durationType>eighth</durationType>
               <Lyrics>
-                <no>1</no>
-                <linked>
-                  </linked>
-                <visible>0</visible>
-                <text>of</text>
-                </Lyrics>
-              <Lyrics>
-                <no>1</no>
                 <linked>
                   </linked>
                 <visible>0</visible>
@@ -23220,7 +24355,6 @@
                 </linked>
               <durationType>eighth</durationType>
               <Lyrics>
-                <no>1</no>
                 <ticks>240</ticks>
                 <ticks_f>1/8</ticks_f>
                 <linked>
