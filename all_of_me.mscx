@@ -16071,7 +16071,6 @@
             <name>stdNormal</name>
             <small>1</small>
             </StaffType>
-          <invisible>1</invisible>
           </Staff>
         <trackName>Eric</trackName>
         <Instrument>
