@@ -182,6 +182,7 @@
           <controller ctrl="7" value="80"/>
           <controller ctrl="10" value="34"/>
           <synti>Fluid</synti>
+          <mute>1</mute>
           <midiPort>0</midiPort>
           <midiChannel>0</midiChannel>
           </Channel>
@@ -9847,6 +9848,7 @@
                 <syllabic>begin</syllabic>
                 <linked>
                   </linked>
+                <offset x="-0.1" y="3"/>
                 <text>with</text>
                 </Lyrics>
               <Note>
