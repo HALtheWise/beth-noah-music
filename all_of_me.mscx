@@ -16857,7 +16857,7 @@
         <lyricsEvenFontSize>10</lyricsEvenFontSize>
         <useStandardNoteNames>0</useStandardNoteNames>
         <createMultiMeasureRests>1</createMultiMeasureRests>
-        <Spatium>1.4986</Spatium>
+        <Spatium>1.6256</Spatium>
         </Style>
       <showInvisible>1</showInvisible>
       <showUnprintable>1</showUnprintable>
@@ -17074,8 +17074,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -17089,8 +17087,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -17114,8 +17110,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -17135,8 +17129,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -17154,8 +17146,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -17168,8 +17158,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -17193,8 +17181,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -17214,8 +17200,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -17233,8 +17217,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -17247,8 +17229,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -17272,8 +17252,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -17293,8 +17271,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -17312,8 +17288,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -17326,8 +17300,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -17351,8 +17323,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -17372,8 +17342,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -17395,8 +17363,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -17409,8 +17375,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -17434,8 +17398,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -17455,8 +17417,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -17482,8 +17442,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -17496,8 +17454,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -17521,8 +17477,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -17542,8 +17496,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -17561,8 +17513,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>up</StemDirection>
               <Note>
                 <linked>
@@ -17575,8 +17525,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -17600,8 +17548,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -17621,8 +17567,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -17640,8 +17584,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -17654,8 +17596,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -17679,8 +17619,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -17700,8 +17638,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -17719,8 +17655,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -17733,8 +17667,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -17758,8 +17690,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -17779,8 +17709,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -17798,8 +17726,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -17812,8 +17738,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -17837,8 +17761,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -17858,8 +17780,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -17877,8 +17797,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -17891,8 +17809,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -17916,8 +17832,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -17937,8 +17851,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>up</StemDirection>
               <Note>
                 <linked>
@@ -17956,8 +17868,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -17970,8 +17880,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -17995,8 +17903,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -18016,8 +17922,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -18035,8 +17939,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -18049,8 +17951,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -18074,8 +17974,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -18095,8 +17993,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -18122,8 +18018,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -18136,8 +18030,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -18161,8 +18053,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -18182,8 +18072,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -18201,8 +18089,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>up</StemDirection>
               <Note>
                 <linked>
@@ -18215,8 +18101,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -18240,8 +18124,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -18261,8 +18143,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -18280,8 +18160,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -18294,8 +18172,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -18319,8 +18195,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -18340,8 +18214,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -18359,8 +18231,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -18373,8 +18243,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -18398,8 +18266,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -18419,8 +18285,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -18438,8 +18302,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -18452,8 +18314,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -18477,8 +18337,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -18498,8 +18356,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -18517,8 +18373,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -18531,8 +18385,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -18556,8 +18408,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -18577,8 +18427,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>up</StemDirection>
               <Note>
                 <linked>
@@ -18596,8 +18444,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -18610,8 +18456,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -18635,8 +18479,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -18656,8 +18498,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -18679,8 +18519,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>half</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -18711,8 +18549,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -18725,8 +18561,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -18750,8 +18584,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -18771,8 +18603,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -18790,8 +18620,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -18804,8 +18632,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -18829,8 +18655,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -18850,8 +18674,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -18869,8 +18691,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -18883,8 +18703,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -18908,8 +18726,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -18929,8 +18745,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>up</StemDirection>
               <Note>
                 <linked>
@@ -18948,8 +18762,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>half</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -18971,8 +18783,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -18986,8 +18796,6 @@
                 </linked>
               <BeamMode>begin</BeamMode>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -18999,8 +18807,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -19012,8 +18818,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -19030,8 +18834,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -19045,8 +18847,6 @@
                 </linked>
               <BeamMode>begin</BeamMode>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -19058,8 +18858,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -19071,8 +18869,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -19089,8 +18885,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -19126,8 +18920,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>half</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -19141,8 +18933,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -19159,8 +18949,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -19173,8 +18961,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -19192,8 +18978,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>half</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -19206,8 +18990,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -19224,8 +19006,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -19243,8 +19023,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -19258,8 +19036,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -19276,8 +19052,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -19290,8 +19064,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -19304,8 +19076,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -19318,8 +19088,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>up</StemDirection>
               <Note>
                 <linked>
@@ -19336,8 +19104,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -19350,8 +19116,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -19368,8 +19132,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -19383,8 +19145,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -19401,8 +19161,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -19415,8 +19173,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -19429,8 +19185,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -19443,8 +19197,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -19462,8 +19214,6 @@
                 </linked>
               <BeamMode>begin</BeamMode>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -19475,8 +19225,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -19493,8 +19241,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -19508,8 +19254,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -19527,8 +19271,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>half</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -19541,8 +19283,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -19559,8 +19299,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -19573,8 +19311,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -19592,8 +19328,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>half</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -19606,8 +19340,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -19624,8 +19356,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -19643,8 +19373,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -19658,8 +19386,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -19676,8 +19402,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -19690,8 +19414,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -19704,8 +19426,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -19718,8 +19438,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -19737,8 +19455,6 @@
                 </linked>
               <BeamMode>begin</BeamMode>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -19750,8 +19466,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -19768,8 +19482,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -19783,8 +19495,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -19801,8 +19511,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -19815,8 +19523,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -19829,8 +19535,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -19843,8 +19547,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -19862,8 +19564,6 @@
                 </linked>
               <BeamMode>begin</BeamMode>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -19875,8 +19575,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -19893,8 +19591,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -19931,8 +19627,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -19957,8 +19651,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -19988,8 +19680,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -20013,8 +19703,6 @@
                     </location>
                   </next>
                 </Spanner>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -20034,8 +19722,6 @@
                     </location>
                   </prev>
                 </Spanner>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -20048,8 +19734,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -20067,8 +19751,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -20081,8 +19763,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -20106,8 +19786,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -20127,8 +19805,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -20146,8 +19822,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -20160,8 +19834,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -20185,8 +19857,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -20206,8 +19876,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -20240,8 +19908,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -20266,8 +19932,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -20299,8 +19963,6 @@
                     </location>
                   </next>
                 </Spanner>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -20325,8 +19987,6 @@
                     </location>
                   </prev>
                 </Spanner>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -20339,8 +19999,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -20364,8 +20022,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -20385,8 +20041,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -20411,8 +20065,6 @@
                     </location>
                   </next>
                 </Spanner>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -20437,8 +20089,6 @@
                     </location>
                   </prev>
                 </Spanner>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -20451,8 +20101,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -20476,8 +20124,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -20497,8 +20143,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -20515,8 +20159,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -20529,8 +20171,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -20592,8 +20232,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -20606,8 +20244,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -20631,8 +20267,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -20652,8 +20286,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -20671,8 +20303,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -20685,8 +20315,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -20710,8 +20338,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -20731,8 +20357,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -20750,8 +20374,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -20764,8 +20386,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -20789,8 +20409,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -20810,8 +20428,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -20829,8 +20445,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -20843,8 +20457,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -20868,8 +20480,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -20889,8 +20499,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -20922,8 +20530,6 @@
                   </linked>
                 <text>What</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -20940,8 +20546,6 @@
                   </linked>
                 <text>would</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -20958,8 +20562,6 @@
                   </linked>
                 <text>I</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -20982,8 +20584,6 @@
                   </linked>
                 <text>do</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -21001,8 +20601,6 @@
                   </linked>
                 <text>with</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -21020,8 +20618,6 @@
                   </linked>
                 <text>out</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -21040,8 +20636,6 @@
                   </linked>
                 <text>your</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -21058,8 +20652,6 @@
                   </linked>
                 <text>smart</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -21081,8 +20673,6 @@
                   </linked>
                 <text>mouth</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -21107,8 +20697,6 @@
                   </linked>
                 <text>Draw</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -21127,8 +20715,6 @@
                   </linked>
                 <text>ing</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -21145,8 +20731,6 @@
                   </linked>
                 <text>me</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -21169,8 +20753,6 @@
                   </linked>
                 <text>in</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -21187,8 +20769,6 @@
                   </linked>
                 <text>and</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -21205,8 +20785,6 @@
                   </linked>
                 <text>you</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -21226,8 +20804,6 @@
                   </linked>
                 <text>kick</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -21246,8 +20822,6 @@
                   </linked>
                 <text>ing</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -21264,8 +20838,6 @@
                   </linked>
                 <text>me</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -21297,8 +20869,6 @@
                     </location>
                   </next>
                 </Spanner>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -21322,8 +20892,6 @@
                     </location>
                   </prev>
                 </Spanner>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -21346,8 +20914,6 @@
                   </linked>
                 <text>You’ve</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -21364,8 +20930,6 @@
                   </linked>
                 <text>got</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -21382,8 +20946,6 @@
                   </linked>
                 <text>my</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -21405,8 +20967,6 @@
                   </linked>
                 <text>head</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -21424,8 +20984,6 @@
                   </linked>
                 <text>spin</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -21444,8 +21002,6 @@
                   </linked>
                 <text>ning,</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -21467,8 +21023,6 @@
                   </linked>
                 <text>no</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -21486,8 +21040,6 @@
                   </linked>
                 <text>kid</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -21505,8 +21057,6 @@
                   </linked>
                 <text>ding</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -21541,8 +21091,6 @@
                     </location>
                   </next>
                 </Spanner>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -21572,8 +21120,6 @@
                     </location>
                   </prev>
                 </Spanner>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -21597,8 +21143,6 @@
                   </linked>
                 <text>pin</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -21626,8 +21170,6 @@
                     </location>
                   </next>
                 </Spanner>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -21646,8 +21188,6 @@
                     </location>
                   </prev>
                 </Spanner>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -21673,8 +21213,6 @@
                   </linked>
                 <text>down</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -21767,8 +21305,6 @@
                   </linked>
                 <text>on</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -21785,8 +21321,6 @@
                   </linked>
                 <text>in</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -21803,8 +21337,6 @@
                   </linked>
                 <text>that</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -21824,8 +21356,6 @@
                   </linked>
                 <text>beau</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -21844,8 +21374,6 @@
                   </linked>
                 <text>ti</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -21865,8 +21393,6 @@
                   </linked>
                 <text>ful</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -21883,8 +21409,6 @@
                   </linked>
                 <text>mind?</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -21912,8 +21436,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>up</StemDirection>
               <Note>
                 <linked>
@@ -21940,8 +21462,6 @@
                 </linked>
               <BeamMode>begin</BeamMode>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -21953,8 +21473,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -21966,8 +21484,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -21985,8 +21501,6 @@
                 </linked>
               <BeamMode>begin</BeamMode>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -21998,8 +21512,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -22011,8 +21523,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -22026,8 +21536,6 @@
                 </linked>
               <BeamMode>begin</BeamMode>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -22039,8 +21547,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -22052,8 +21558,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -22070,8 +21574,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -22090,8 +21592,6 @@
                 </linked>
               <BeamMode>begin</BeamMode>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -22103,8 +21603,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -22116,8 +21614,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -22134,8 +21630,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -22148,8 +21642,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -22163,8 +21655,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -22181,8 +21671,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -22195,8 +21683,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -22210,8 +21696,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -22228,8 +21712,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -22243,8 +21725,6 @@
                 </linked>
               <BeamMode>begin</BeamMode>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -22257,8 +21737,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -22279,8 +21757,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>half</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -22303,8 +21779,6 @@
                   </linked>
                 <text>My</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -22327,8 +21801,6 @@
                   </linked>
                 <text>head's</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -22347,8 +21819,6 @@
                   </linked>
                 <text>un</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -22372,8 +21842,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -22400,8 +21868,6 @@
                   </linked>
                 <text>der</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -22425,8 +21891,6 @@
                   </linked>
                 <text>wat</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -22447,8 +21911,6 @@
                   </linked>
                 <text>er</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -22472,8 +21934,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -22498,8 +21958,6 @@
                   </linked>
                 <text>but</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -22522,8 +21980,6 @@
                   </linked>
                 <text>I'm</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -22542,8 +21998,6 @@
                   </linked>
                 <text>breath</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -22567,8 +22021,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -22595,8 +22047,6 @@
                   </linked>
                 <text>ing</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -22619,8 +22069,6 @@
                   </linked>
                 <text>fine</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -22642,8 +22090,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -22657,8 +22103,6 @@
                 </linked>
               <BeamMode>begin</BeamMode>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -22670,8 +22114,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -22683,8 +22125,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -22701,8 +22141,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -22716,8 +22154,6 @@
                 </linked>
               <BeamMode>begin</BeamMode>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -22729,8 +22165,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -22742,8 +22176,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -22760,8 +22192,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -22784,8 +22214,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -22807,8 +22235,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>half</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -22821,8 +22247,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -22839,8 +22263,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -22853,8 +22275,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -22872,8 +22292,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>half</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -22886,8 +22304,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -22904,8 +22320,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -22923,8 +22337,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -22938,8 +22350,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -22956,8 +22366,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -22970,8 +22378,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -22984,8 +22390,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -22998,8 +22402,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -23017,8 +22419,6 @@
                 </linked>
               <BeamMode>begin</BeamMode>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -23030,8 +22430,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -23048,8 +22446,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -23063,8 +22459,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -23081,8 +22475,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -23095,8 +22487,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -23109,8 +22499,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -23123,8 +22511,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -23142,8 +22528,6 @@
                 </linked>
               <BeamMode>begin</BeamMode>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -23155,8 +22539,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -23173,8 +22555,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -23188,8 +22568,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -23207,8 +22585,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>half</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -23221,8 +22597,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -23239,8 +22613,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -23253,8 +22625,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -23272,8 +22642,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>half</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -23286,8 +22654,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -23304,8 +22670,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -23323,8 +22687,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -23338,8 +22700,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -23356,8 +22716,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -23370,8 +22728,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -23384,8 +22740,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -23398,8 +22752,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>up</StemDirection>
               <Note>
                 <linked>
@@ -23416,8 +22768,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -23430,8 +22780,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -23448,8 +22796,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -23463,8 +22809,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -23481,8 +22825,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -23495,8 +22837,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -23509,8 +22849,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -23523,8 +22861,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -23542,8 +22878,6 @@
                 </linked>
               <BeamMode>begin</BeamMode>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -23555,8 +22889,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -23578,8 +22910,6 @@
                   </linked>
                 <text>’Cause</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -23598,8 +22928,6 @@
                   </linked>
                 <text>I</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -23617,8 +22945,6 @@
                   </linked>
                 <text>give</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -23636,8 +22962,6 @@
                   </linked>
                 <text>you</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -23678,8 +23002,6 @@
                     </location>
                   </next>
                 </Spanner>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -23708,8 +23030,6 @@
                     </location>
                   </prev>
                 </Spanner>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -23733,8 +23053,6 @@
                     </location>
                   </next>
                 </Spanner>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -23746,8 +23064,6 @@
               <linked>
                 </linked>
               <durationType>16th</durationType>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -23767,8 +23083,6 @@
                     </location>
                   </prev>
                 </Spanner>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -23781,8 +23095,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -23812,8 +23124,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -23842,8 +23152,6 @@
                     </location>
                   </prev>
                 </Spanner>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -23867,8 +23175,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -23893,8 +23199,6 @@
                   </linked>
                 <text>of</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -23926,8 +23230,6 @@
                     </location>
                   </next>
                 </Spanner>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -23951,8 +23253,6 @@
                     </location>
                   </prev>
                 </Spanner>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -23989,8 +23289,6 @@
                   </linked>
                 <text>And</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -24008,8 +23306,6 @@
                   </linked>
                 <text>you</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -24027,8 +23323,6 @@
                   </linked>
                 <text>give</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -24046,8 +23340,6 @@
                   </linked>
                 <text>me</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -24088,8 +23380,6 @@
                     </location>
                   </next>
                 </Spanner>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -24114,8 +23404,6 @@
                     </location>
                   </prev>
                 </Spanner>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -24139,8 +23427,6 @@
                     </location>
                   </next>
                 </Spanner>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -24152,8 +23438,6 @@
               <linked>
                 </linked>
               <durationType>16th</durationType>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -24173,8 +23457,6 @@
                     </location>
                   </prev>
                 </Spanner>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -24187,8 +23469,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -24218,8 +23498,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -24248,8 +23526,6 @@
                     </location>
                   </prev>
                 </Spanner>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -24273,8 +23549,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -24294,8 +23568,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -24312,8 +23584,6 @@
                   </linked>
                 <text>you,</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -24342,8 +23612,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Stem>
-                </Stem>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -24375,8 +23643,6 @@
                   </linked>
                 <text>oh</text>
                 </Lyrics>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -24388,8 +23654,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>

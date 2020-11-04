@@ -99,8 +99,10 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="73"/>
+          <controller ctrl="10" value="36"/>
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
@@ -162,18 +164,89 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel name="arco">
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="40"/>
+          <controller ctrl="10" value="90"/>
           <synti>Fluid</synti>
           </Channel>
         <Channel name="pizzicato">
           <program value="45"/>
+          <controller ctrl="10" value="90"/>
           <synti>Fluid</synti>
           </Channel>
         <Channel name="tremolo">
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="44"/>
+          <controller ctrl="10" value="90"/>
           <synti>Fluid</synti>
+          </Channel>
+        </Instrument>
+      </Part>
+    <Part>
+      <Staff id="3">
+        <StaffType group="pitched">
+          <name>stdNormal</name>
+          <small>1</small>
+          </StaffType>
+        <hideWhenEmpty>1</hideWhenEmpty>
+        </Staff>
+      <trackName>Voice</trackName>
+      <Instrument>
+        <longName>Voice</longName>
+        <shortName>Vo.</shortName>
+        <trackName>Voice</trackName>
+        <minPitchP>38</minPitchP>
+        <maxPitchP>84</maxPitchP>
+        <minPitchA>41</minPitchA>
+        <maxPitchA>79</maxPitchA>
+        <instrumentId>voice.vocals</instrumentId>
+        <Articulation>
+          <velocity>100</velocity>
+          <gateTime>100</gateTime>
+          </Articulation>
+        <Articulation name="staccatissimo">
+          <velocity>100</velocity>
+          <gateTime>33</gateTime>
+          </Articulation>
+        <Articulation name="staccato">
+          <velocity>100</velocity>
+          <gateTime>50</gateTime>
+          </Articulation>
+        <Articulation name="portato">
+          <velocity>100</velocity>
+          <gateTime>67</gateTime>
+          </Articulation>
+        <Articulation name="tenuto">
+          <velocity>100</velocity>
+          <gateTime>100</gateTime>
+          </Articulation>
+        <Articulation name="marcato">
+          <velocity>120</velocity>
+          <gateTime>67</gateTime>
+          </Articulation>
+        <Articulation name="sforzato">
+          <velocity>150</velocity>
+          <gateTime>100</gateTime>
+          </Articulation>
+        <Articulation name="sforzatoStaccato">
+          <velocity>150</velocity>
+          <gateTime>50</gateTime>
+          </Articulation>
+        <Articulation name="marcatoStaccato">
+          <velocity>120</velocity>
+          <gateTime>50</gateTime>
+          </Articulation>
+        <Articulation name="marcatoTenuto">
+          <velocity>120</velocity>
+          <gateTime>100</gateTime>
+          </Articulation>
+        <Channel>
+          <controller ctrl="32" value="17"/>
+          <program value="52"/>
+          <synti>Fluid</synti>
+          <mute>1</mute>
           </Channel>
         </Instrument>
       </Part>
@@ -210,15 +283,15 @@
             <sigD>4</sigD>
             </TimeSig>
           <Tempo>
-            <tempo>2</tempo>
+            <tempo>1.5</tempo>
             <followText>1</followText>
             <linkedMain/>
             <placement>below</placement>
-            <text><sym>metNoteQuarterUp</sym> = 120</text>
+            <text><b></b><font face="ScoreText"/><b><font face="FreeSerif"/> = 90
+</b></text>
             </Tempo>
           <Rest>
             <linkedMain/>
-            <visible>0</visible>
             <durationType>half</durationType>
             </Rest>
           <Dynamic>
@@ -227,10 +300,6 @@
             <autoplace>0</autoplace>
             <linkedMain/>
             </Dynamic>
-          <Beam>
-            <autoplace>0</autoplace>
-            <StemDirection>up</StemDirection>
-            </Beam>
           <Chord>
             <linkedMain/>
             <BeamMode>begin</BeamMode>
@@ -386,9 +455,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -613,9 +679,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -1010,9 +1073,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -1446,9 +1506,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -1673,9 +1730,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>page</subtype>
-          </LayoutBreak>
         <voice>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -1976,9 +2030,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Dynamic>
             <subtype>mp</subtype>
@@ -2238,11 +2289,6 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Dynamic>
-            <subtype>mf</subtype>
-            <velocity>80</velocity>
-            <linkedMain/>
-            </Dynamic>
           <Chord>
             <linkedMain/>
             <BeamMode>mid</BeamMode>
@@ -2466,9 +2512,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -2915,9 +2958,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -3146,9 +3186,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -3447,9 +3484,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -5674,6 +5708,11 @@
             <linkedMain/>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <linkedMain/>
+              <text>Ev</text>
+              </Lyrics>
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
@@ -5699,6 +5738,12 @@
             <linkedMain/>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <ticks_f>0/8</ticks_f>
+              <linkedMain/>
+              <text>er</text>
+              </Lyrics>
             <Note>
               <linkedMain/>
               <pitch>74</pitch>
@@ -5709,6 +5754,10 @@
             <linkedMain/>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Lyrics>
+              <linkedMain/>
+              <text>as</text>
+              </Lyrics>
             <Note>
               <linkedMain/>
               <pitch>76</pitch>
@@ -5718,6 +5767,11 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <linkedMain/>
+              <text>be</text>
+              </Lyrics>
             <Spanner type="Slur">
               <prev>
                 <location>
@@ -5738,6 +5792,11 @@
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <linkedMain/>
+              <text>fore</text>
+              </Lyrics>
             <StemDirection>down</StemDirection>
             <Note>
               <linkedMain/>
@@ -5752,6 +5811,11 @@
             <linkedMain/>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <linkedMain/>
+              <text>ev</text>
+              </Lyrics>
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
@@ -5772,6 +5836,12 @@
             <linkedMain/>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <ticks_f>0/8</ticks_f>
+              <linkedMain/>
+              <text>er</text>
+              </Lyrics>
             <Note>
               <linkedMain/>
               <pitch>77</pitch>
@@ -5782,6 +5852,10 @@
             <linkedMain/>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Lyrics>
+              <linkedMain/>
+              <text>just</text>
+              </Lyrics>
             <Note>
               <linkedMain/>
               <pitch>76</pitch>
@@ -5791,6 +5865,10 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Lyrics>
+              <linkedMain/>
+              <text>as</text>
+              </Lyrics>
             <Spanner type="Slur">
               <prev>
                 <location>
@@ -5811,6 +5889,10 @@
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
+            <Lyrics>
+              <linkedMain/>
+              <text>sure</text>
+              </Lyrics>
             <StemDirection>down</StemDirection>
             <Note>
               <linkedMain/>
@@ -5825,6 +5907,10 @@
             <linkedMain/>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Lyrics>
+              <linkedMain/>
+              <text>as</text>
+              </Lyrics>
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
@@ -5846,6 +5932,10 @@
             <linkedMain/>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Lyrics>
+              <linkedMain/>
+              <text>the</text>
+              </Lyrics>
             <Note>
               <linkedMain/>
               <pitch>74</pitch>
@@ -5856,6 +5946,10 @@
             <linkedMain/>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Lyrics>
+              <linkedMain/>
+              <text>sun</text>
+              </Lyrics>
             <Note>
               <linkedMain/>
               <pitch>76</pitch>
@@ -5865,6 +5959,10 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Lyrics>
+              <linkedMain/>
+              <text>will</text>
+              </Lyrics>
             <Spanner type="Slur">
               <prev>
                 <location>
@@ -5885,6 +5983,10 @@
           <Chord>
             <linkedMain/>
             <durationType>whole</durationType>
+            <Lyrics>
+              <linkedMain/>
+              <text>rise.</text>
+              </Lyrics>
             <Note>
               <linkedMain/>
               <pitch>74</pitch>
@@ -7458,6 +7560,1183 @@
           </voice>
         </Measure>
       </Staff>
+    <Staff id="3">
+      <Measure>
+        <voice>
+          <KeySig>
+            <accidental>0</accidental>
+            </KeySig>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <offset x="0" y="-0.35"/>
+            <durationType>half</durationType>
+            </Rest>
+          <StaffText>
+            <text><font size="6"></font><font face="sans-serif"></font><b><i>Opt. solo</i></b></text>
+            </StaffText>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text>Taleas</text>
+              </Lyrics>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Dynamic>
+            <subtype>mp</subtype>
+            <velocity>60</velocity>
+            <placement>above</placement>
+            </Dynamic>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <dots>1</dots>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text>old</text>
+              </Lyrics>
+            <Note>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <text>as</text>
+              </Lyrics>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Lyrics>
+              <text>time.</text>
+              </Lyrics>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <offset x="0" y="-0.35"/>
+            <durationType>half</durationType>
+            </Rest>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <dots>1</dots>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text>true</text>
+              </Lyrics>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <text>as</text>
+              </Lyrics>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text>it</text>
+              </Lyrics>
+            <Note>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text>can</text>
+              </Lyrics>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>whole</durationType>
+            <Lyrics>
+              <text>be.</text>
+              </Lyrics>
+            <Note>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <offset x="0" y="-0.35"/>
+            <durationType>half</durationType>
+            </Rest>
+          <StaffText>
+            <text><font size="6"></font><font face="sans-serif"></font><b>Opt. duel</b></text>
+            </StaffText>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text>Bare</text>
+              </Lyrics>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text>Iy</text>
+              </Lyrics>
+            <Note>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text>e</text>
+              </Lyrics>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text>ven</text>
+              </Lyrics>
+            <Note>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>half</durationType>
+            <Lyrics>
+              <text>friends.</text>
+              </Lyrics>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <dots>1</dots>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text>then</text>
+              </Lyrics>
+            <Note>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text>some</text>
+              </Lyrics>
+            <Spanner type="Slur">
+              <Slur>
+                <up>up</up>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>3/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>middle</syllabic>
+              <text>bod</text>
+              </Lyrics>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text>y</text>
+              </Lyrics>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-3/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>half</durationType>
+            <Lyrics>
+              <text>bends</text>
+              </Lyrics>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text>un</text>
+              </Lyrics>
+            <Note>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>middle</syllabic>
+              <text>cx~pect~cd</text>
+              </Lyrics>
+            <Note>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text>ly.</text>
+              </Lyrics>
+            <Spanner type="Slur">
+              <Slur>
+                <up>down</up>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/2</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Lyrics>
+              <text>.</text>
+              </Lyrics>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  <up>down</up>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>3/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>half</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/2</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-3/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text>Small</text>
+              </Lyrics>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text>to</text>
+              </Lyrics>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text>say</text>
+              </Lyrics>
+            <Note>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text>the</text>
+              </Lyrics>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>half</durationType>
+            <Lyrics>
+              <text>least.</text>
+              </Lyrics>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text>Both</text>
+              </Lyrics>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text>a</text>
+              </Lyrics>
+            <Note>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text>Iit</text>
+              </Lyrics>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text>tl</text>
+              </Lyrics>
+            <Note>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>half</durationType>
+            <Lyrics>
+              <text>scared,</text>
+              </Lyrics>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text>nei</text>
+              </Lyrics>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text>lhcr</text>
+              </Lyrics>
+            <Note>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text>one</text>
+              </Lyrics>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text>pre</text>
+              </Lyrics>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>half</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text>pared.</text>
+              </Lyrics>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text>Beau</text>
+              </Lyrics>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <offset x="0.143481" y="2.15951"/>
+              <text>(y</text>
+              </Lyrics>
+            <Note>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text>and</text>
+              </Lyrics>
+            <Note>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text>the</text>
+              </Lyrics>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text>Ev</text>
+              </Lyrics>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <ticks_f>0/8</ticks_f>
+              <text>er</text>
+              </Lyrics>
+            <Note>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text>a</text>
+              </Lyrics>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text>sur</text>
+              </Lyrics>
+            <Note>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>whole</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text>prise</text>
+              </Lyrics>
+            <Note>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <offset x="0" y="-0.35"/>
+            <durationType>half</durationType>
+            </Rest>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text>Ev</text>
+              </Lyrics>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <ticks_f>0/8</ticks_f>
+              <text>er</text>
+              </Lyrics>
+            <Note>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text>as</text>
+              </Lyrics>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text>be</text>
+              </Lyrics>
+            <Note>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text>fore</text>
+              </Lyrics>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text>and</text>
+              </Lyrics>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text>ev</text>
+              </Lyrics>
+            <Note>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <ticks_f>0/8</ticks_f>
+              <text>er</text>
+              </Lyrics>
+            <Note>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text>just</text>
+              </Lyrics>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text>as</text>
+              </Lyrics>
+            <Note>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>half</durationType>
+            <Lyrics>
+              <text>sure</text>
+              </Lyrics>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text>as</text>
+              </Lyrics>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text>the</text>
+              </Lyrics>
+            <Note>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text>sun</text>
+              </Lyrics>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text>will</text>
+              </Lyrics>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>whole</durationType>
+            <Lyrics>
+              <text>rise.</text>
+              </Lyrics>
+            <Note>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <KeySig>
+            <accidental>2</accidental>
+            </KeySig>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      </Staff>
     <Score>
       <LayerTag id="0" tag="default"></LayerTag>
       <currentLayer>0</currentLayer>
@@ -7537,6 +8816,7 @@
             <gateTime>100</gateTime>
             </Articulation>
           <Channel>
+            <controller ctrl="0" value="0"/>
             <controller ctrl="32" value="17"/>
             <program value="73"/>
             <synti>Fluid</synti>
@@ -7581,17 +8861,17 @@
               <sigD>4</sigD>
               </TimeSig>
             <Tempo>
-              <tempo>2</tempo>
+              <tempo>1.5</tempo>
               <followText>1</followText>
               <linked>
                 </linked>
               <placement>below</placement>
-              <text><sym>metNoteQuarterUp</sym> = 120</text>
+              <text><b></b><font face="ScoreText"/><b><font face="FreeSerif"/> = 90
+</b></text>
               </Tempo>
             <Rest>
               <linked>
                 </linked>
-              <visible>0</visible>
               <durationType>half</durationType>
               </Rest>
             <Dynamic>
@@ -7600,10 +8880,6 @@
               <linked>
                 </linked>
               </Dynamic>
-            <Beam>
-              <autoplace>0</autoplace>
-              <StemDirection>up</StemDirection>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -9879,12 +11155,6 @@
                 <tpc>16</tpc>
                 </Note>
               </Chord>
-            <Dynamic>
-              <subtype>mf</subtype>
-              <velocity>80</velocity>
-              <linked>
-                </linked>
-              </Dynamic>
             <Chord>
               <linked>
                 </linked>
@@ -11725,6 +12995,7 @@
             <gateTime>100</gateTime>
             </Articulation>
           <Channel name="arco">
+            <controller ctrl="0" value="0"/>
             <controller ctrl="32" value="17"/>
             <program value="40"/>
             <synti>Fluid</synti>
@@ -11734,6 +13005,7 @@
             <synti>Fluid</synti>
             </Channel>
           <Channel name="tremolo">
+            <controller ctrl="0" value="0"/>
             <controller ctrl="32" value="17"/>
             <program value="44"/>
             <synti>Fluid</synti>
@@ -11787,7 +13059,7 @@
               <sigD>4</sigD>
               </TimeSig>
             <Tempo>
-              <tempo>2</tempo>
+              <tempo>1.5</tempo>
               <followText>1</followText>
               <linked>
                 <location>
@@ -11796,7 +13068,8 @@
                 <indexDiff>5</indexDiff>
                 </linked>
               <placement>below</placement>
-              <text><sym>metNoteQuarterUp</sym> = 120</text>
+              <text><b></b><font face="ScoreText"/><b><font face="FreeSerif"/> = 90
+</b></text>
               </Tempo>
             <Dynamic>
               <subtype>mp</subtype>
@@ -13948,6 +15221,12 @@
                 </linked>
               <BeamMode>begin</BeamMode>
               <durationType>eighth</durationType>
+              <Lyrics>
+                <syllabic>begin</syllabic>
+                <linked>
+                  </linked>
+                <text>Ev</text>
+                </Lyrics>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
@@ -13977,6 +15256,13 @@
                 </linked>
               <BeamMode>mid</BeamMode>
               <durationType>eighth</durationType>
+              <Lyrics>
+                <syllabic>end</syllabic>
+                <ticks_f>0/8</ticks_f>
+                <linked>
+                  </linked>
+                <text>er</text>
+                </Lyrics>
               <Note>
                 <linked>
                   </linked>
@@ -13989,6 +15275,11 @@
                 </linked>
               <BeamMode>mid</BeamMode>
               <durationType>eighth</durationType>
+              <Lyrics>
+                <linked>
+                  </linked>
+                <text>as</text>
+                </Lyrics>
               <Note>
                 <linked>
                   </linked>
@@ -14000,6 +15291,12 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Lyrics>
+                <syllabic>begin</syllabic>
+                <linked>
+                  </linked>
+                <text>be</text>
+                </Lyrics>
               <Spanner type="Slur">
                 <prev>
                   <location>
@@ -14022,6 +15319,12 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
+              <Lyrics>
+                <syllabic>end</syllabic>
+                <linked>
+                  </linked>
+                <text>fore</text>
+                </Lyrics>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -14038,6 +15341,12 @@
                 </linked>
               <BeamMode>begin</BeamMode>
               <durationType>eighth</durationType>
+              <Lyrics>
+                <syllabic>begin</syllabic>
+                <linked>
+                  </linked>
+                <text>ev</text>
+                </Lyrics>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
@@ -14061,6 +15370,13 @@
                 </linked>
               <BeamMode>mid</BeamMode>
               <durationType>eighth</durationType>
+              <Lyrics>
+                <syllabic>end</syllabic>
+                <ticks_f>0/8</ticks_f>
+                <linked>
+                  </linked>
+                <text>er</text>
+                </Lyrics>
               <Note>
                 <linked>
                   </linked>
@@ -14073,6 +15389,11 @@
                 </linked>
               <BeamMode>mid</BeamMode>
               <durationType>eighth</durationType>
+              <Lyrics>
+                <linked>
+                  </linked>
+                <text>just</text>
+                </Lyrics>
               <Note>
                 <linked>
                   </linked>
@@ -14084,6 +15405,11 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Lyrics>
+                <linked>
+                  </linked>
+                <text>as</text>
+                </Lyrics>
               <Spanner type="Slur">
                 <prev>
                   <location>
@@ -14106,6 +15432,11 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
+              <Lyrics>
+                <linked>
+                  </linked>
+                <text>sure</text>
+                </Lyrics>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -14122,6 +15453,11 @@
                 </linked>
               <BeamMode>begin</BeamMode>
               <durationType>eighth</durationType>
+              <Lyrics>
+                <linked>
+                  </linked>
+                <text>as</text>
+                </Lyrics>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
@@ -14146,6 +15482,11 @@
                 </linked>
               <BeamMode>mid</BeamMode>
               <durationType>eighth</durationType>
+              <Lyrics>
+                <linked>
+                  </linked>
+                <text>the</text>
+                </Lyrics>
               <Note>
                 <linked>
                   </linked>
@@ -14158,6 +15499,11 @@
                 </linked>
               <BeamMode>mid</BeamMode>
               <durationType>eighth</durationType>
+              <Lyrics>
+                <linked>
+                  </linked>
+                <text>sun</text>
+                </Lyrics>
               <Note>
                 <linked>
                   </linked>
@@ -14169,6 +15515,11 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Lyrics>
+                <linked>
+                  </linked>
+                <text>will</text>
+                </Lyrics>
               <Spanner type="Slur">
                 <prev>
                   <location>
@@ -14191,6 +15542,11 @@
               <linked>
                 </linked>
               <durationType>whole</durationType>
+              <Lyrics>
+                <linked>
+                  </linked>
+                <text>rise.</text>
+                </Lyrics>
               <Note>
                 <linked>
                   </linked>
