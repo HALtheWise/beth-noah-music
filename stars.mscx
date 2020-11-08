@@ -2148,7 +2148,8 @@
       <Measure>
         <voice>
           <StaffText>
-            <text>Rhytms/notes not right</text>
+            <text>NOTE: Rhytms/notes not right here
+</text>
             </StaffText>
           <Chord>
             <durationType>eighth</durationType>
