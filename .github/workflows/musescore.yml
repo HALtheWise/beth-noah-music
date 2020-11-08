@@ -81,6 +81,7 @@ jobs:
       - name: Generate MP3
         run: |
           mkdir output/
+          echo "Creating MP3s"
           xvfb-run bash -c '
             for f in *.mscx; 
               do ./musescore -o "output/${f%.*}.mp3" "$f"; 
