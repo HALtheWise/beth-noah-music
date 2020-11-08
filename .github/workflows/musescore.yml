@@ -18,18 +18,17 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      - name: Install Dependencies
-        run: |
-          sudo add-apt-repository ppa:mscore-ubuntu/mscore-stable
-          # sudo apt-get update
-          sudo apt-get install -y musescore xvfb
-
-      # Runs a single command using the runners shell
-      # - name: Download
+      # - name: Install Dependencies
       #   run: |
-      #     echo Downloading musescore!
-      #     wget -O musescore https://cdn.jsdelivr.net/musescore/v3.5.2/MuseScore-3.5.2.312125617-x86_64.AppImage
-      #     chmod +x musescore
+      #     sudo add-apt-repository ppa:mscore-ubuntu/mscore-stable
+      #     # sudo apt-get update
+      #     sudo apt-get install -y musescore
+
+      - name: Download
+        run: |
+          echo Downloading musescore!
+          wget -O musescore https://cdn.jsdelivr.net/musescore/v3.5.2/MuseScore-3.5.2.312125617-x86_64.AppImage
+          chmod +x musescore
 
       # Runs a set of commands using the runners shell
       # TODO(eric): Use the json bulk export capability to make this faster
@@ -37,7 +36,7 @@ jobs:
         run: |
           mkdir output_pdf/
           for f in *.msc*; 
-            do xvfb-run musescore --export-score-parts -o output_pdf/${f%.*}.pdf $f; 
+            do xvfb-run ./musescore --export-score-parts -o output_pdf/${f%.*}.pdf $f; 
           done
 
       - uses: actions/upload-artifact@v2
@@ -51,7 +50,7 @@ jobs:
         run: |
           mkdir output_mp3/
           for f in *.msc*; 
-            do musescore -o output_mp3/${f%.*}.mp3 $f; 
+            do ./musescore -o output_mp3/${f%.*}.mp3 $f; 
           done
 
       - uses: actions/upload-artifact@v2
