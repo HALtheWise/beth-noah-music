@@ -26,6 +26,29 @@ jobs:
           chmod +x musescore
 
       # Runs a set of commands using the runners shell
-      - name: Print help
+      # TODO(eric): Use the json bulk export capability to make this faster
+      - name: Generate PDF
         run: |
-          ./musescore -h
+          mkdir output_pdf/
+          for f in *.msc*; 
+            do ./musescore --export-score-parts -o output_pdf/${f%.*}.pdf $f; 
+          done
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: PDF Scores
+          path: output_pdf/ # or path/to/artifact
+
+      # Runs a set of commands using the runners shell
+      # TODO(eric): Use the json bulk export capability to make this faster
+      - name: Generate MP3
+        run: |
+          mkdir output_mp3/
+          for f in *.msc*; 
+            do ./musescore -o output_mp3/${f%.*}.mp3 $f; 
+          done
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: MP3
+          path: output_mp3/ # or path/to/artifact
