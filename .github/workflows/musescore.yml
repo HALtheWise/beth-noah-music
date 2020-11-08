@@ -37,7 +37,7 @@ jobs:
       - name: Generate PDF
         run: |
           mkdir output_pdf/
-          for f in *.msc*; 
+          for f in *.mscx; 
             do xvfb-run --auto-servernum -e /dev/stdout ./musescore_img --export-score-parts -o output_pdf/${f%.*}.pdf $f; 
           done
 
