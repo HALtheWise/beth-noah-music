@@ -18,19 +18,18 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      # - name: Install Dependencies
-      #   run: |
-      #     sudo add-apt-repository ppa:mscore-ubuntu/mscore-stable
-      #     # sudo apt-get update
-      #     sudo apt-get install -y musescore
+      - name: Install Dependencies
+        run: |
+          # sudo add-apt-repository ppa:mscore-ubuntu/mscore-stable
+          # sudo apt-get update
+          sudo apt-get install -y libjack0 libasound2 libgl1 libglib2.0-0 libnss3 libfontconfig1
 
       - name: Install
         run: |
           echo Downloading musescore!
-          wget -O musescore https://cdn.jsdelivr.net/musescore/v3.5.2/MuseScore-3.5.2.312125617-x86_64.AppImage
-          chmod +x musescore
-          ./musescore --appimage-extract
-          rm musescore
+          wget -O musescore_img https://cdn.jsdelivr.net/musescore/v3.5.2/MuseScore-3.5.2.312125617-x86_64.AppImage
+          chmod +x musescore_img
+          ./musescore_img --appimage-extract
           ln -s squashfs-root/bin/musescore-portable musescore
 
       # Runs a set of commands using the runners shell
