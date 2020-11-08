@@ -45,19 +45,21 @@ jobs:
 
       - uses: actions/upload-artifact@v2
         with:
-          name: PDF Scores
+          name: PDF Scores.zip
           path: output_pdf/ # or path/to/artifact
 
       # Runs a set of commands using the runners shell
       # TODO(eric): Use the json bulk export capability to make this faster
       - name: Generate MP3
         run: |
-          mkdir output_mp3/
-          for f in *.msc*; 
-            do ./musescore -o output_mp3/${f%.*}.mp3 $f; 
-          done
+          mkdir output_pdf/
+          xvfb-run bash -c '
+            for f in *.mscx; 
+              do xvfb-run --auto-servernum -e /dev/stdout ./musescore -o "output_mp3/${f%.*}.mp3" "$f"; 
+            done          
+          '
 
       - uses: actions/upload-artifact@v2
         with:
-          name: MP3
+          name: MP3s.zip
           path: output_mp3/ # or path/to/artifact
