@@ -40,7 +40,7 @@ jobs:
           mkdir output/
           xvfb-run bash -c '
             for f in *.mscx; 
-              do xvfb-run --auto-servernum -e /dev/stdout ./musescore --export-score-parts -o "output/${f%.*}.pdf" "$f"; 
+              do ./musescore --export-score-parts -o "output/${f%.*}.pdf" "$f"; 
             done          
           '
 
@@ -83,7 +83,7 @@ jobs:
           mkdir output/
           xvfb-run bash -c '
             for f in *.mscx; 
-              do xvfb-run --auto-servernum -e /dev/stdout ./musescore -o "output/${f%.*}.mp3" "$f"; 
+              do ./musescore -o "output/${f%.*}.mp3" "$f"; 
             done          
           '
 
