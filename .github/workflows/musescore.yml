@@ -27,7 +27,7 @@ jobs:
         run: |
           echo Downloading musescore!
           wget -O musescore https://musescore.org/en/download/musescore-x86_64.AppImage
-          chmod +x musescore-x86_64.AppImage
+          chmod +x musescore
 
       # Runs a set of commands using the runners shell
       - name: Print help
