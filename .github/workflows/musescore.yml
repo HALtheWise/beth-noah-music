@@ -24,11 +24,14 @@ jobs:
       #     # sudo apt-get update
       #     sudo apt-get install -y musescore
 
-      - name: Download
+      - name: Install
         run: |
           echo Downloading musescore!
           wget -O musescore https://cdn.jsdelivr.net/musescore/v3.5.2/MuseScore-3.5.2.312125617-x86_64.AppImage
           chmod +x musescore
+          ./musescore --appimage-extract
+          rm musescore
+          ln -s squashfs-root/bin/musescore-portable musescore
 
       # Runs a set of commands using the runners shell
       # TODO(eric): Use the json bulk export capability to make this faster
