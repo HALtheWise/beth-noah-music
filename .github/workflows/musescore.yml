@@ -52,7 +52,7 @@ jobs:
       # TODO(eric): Use the json bulk export capability to make this faster
       - name: Generate MP3
         run: |
-          mkdir output_pdf/
+          mkdir output_mp3/
           xvfb-run bash -c '
             for f in *.mscx; 
               do xvfb-run --auto-servernum -e /dev/stdout ./musescore -o "output_mp3/${f%.*}.mp3" "$f"; 
