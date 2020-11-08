@@ -1958,7 +1958,6 @@
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
               <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
