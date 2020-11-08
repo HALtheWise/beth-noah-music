@@ -38,7 +38,7 @@ jobs:
         run: |
           mkdir output_pdf/
           for f in *.msc*; 
-            do xvfb-run ./musescore_img --export-score-parts -o output_pdf/${f%.*}.pdf $f; 
+            do sudo xvfb-run -e /dev/stdout ./musescore_img --export-score-parts -o output_pdf/${f%.*}.pdf $f; 
           done
 
       - uses: actions/upload-artifact@v2
