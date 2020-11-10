@@ -46,7 +46,7 @@ jobs:
 
       - uses: actions/upload-artifact@v2
         with:
-          name: PDF Scores.zip
+          name: PDF Scores
           path: output/
 
   mp3:
@@ -91,5 +91,5 @@ jobs:
 
       - uses: actions/upload-artifact@v2
         with:
-          name: MP3s.zip
+          name: MP3s
           path: output/
