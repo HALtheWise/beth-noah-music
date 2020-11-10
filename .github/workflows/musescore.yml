@@ -1,0 +1,95 @@
+name: Musescore PDFs
+
+on: push
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  pdf:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      - name: Install Dependencies
+        run: |
+          # sudo add-apt-repository ppa:mscore-ubuntu/mscore-stable
+          # sudo apt-get update
+          sudo apt-get install -y libjack0 libasound2 libgl1 libglib2.0-0 libnss3 libfontconfig1 libegl1-mesa
+
+      - name: Cache Musescore
+        id: cache-musescore
+        uses: actions/cache@v2
+        with:
+          path: musescore
+          key: ${{ runner.os }}-musescore
+
+      - name: Install
+        if: steps.cache-musescore.outputs.cache-hit != 'true'
+        run: |
+          echo Downloading musescore!
+          wget -O musescore https://cdn.jsdelivr.net/musescore/v3.5.2/MuseScore-3.5.2.312125617-x86_64.AppImage
+          chmod +x musescore
+
+      # Runs a set of commands using the runners shell
+      # TODO(eric): Use the json bulk export capability to make this faster
+      - name: Generate PDF
+        run: |
+          mkdir output/
+          xvfb-run bash -c '
+            for f in *.mscx; 
+              do ./musescore --export-score-parts -o "output/${f%.*}.pdf" "$f"; 
+            done          
+          '
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: PDF Scores
+          path: output/
+
+  mp3:
+    if: false
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      - name: Install Dependencies
+        run: |
+          # sudo add-apt-repository ppa:mscore-ubuntu/mscore-stable
+          # sudo apt-get update
+          sudo apt-get install -y libjack0 libasound2 libgl1 libglib2.0-0 libnss3 libfontconfig1 libegl1-mesa
+
+      - name: Cache Musescore
+        id: cache-musescore
+        uses: actions/cache@v2
+        with:
+          path: musescore
+          key: ${{ runner.os }}-musescore
+
+      - name: Install
+        if: steps.cache-musescore.outputs.cache-hit != 'true'
+        run: |
+          echo Downloading musescore!
+          wget -O musescore https://cdn.jsdelivr.net/musescore/v3.5.2/MuseScore-3.5.2.312125617-x86_64.AppImage
+          chmod +x musescore
+
+      - name: Generate MP3
+        run: |
+          mkdir output/
+          echo "Creating MP3s"
+          xvfb-run bash -c '
+            for f in *.mscx; 
+              do ./musescore -o "output/${f%.*}.mp3" "$f"; 
+            done          
+          '
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: MP3s
+          path: output/
