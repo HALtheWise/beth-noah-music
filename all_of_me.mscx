@@ -9615,23 +9615,19 @@
       <currentLayer>0</currentLayer>
       <Division>480</Division>
       <Style>
-        <pageWidth>8.27</pageWidth>
-        <pageHeight>11.69</pageHeight>
-        <pagePrintableWidth>7.49</pagePrintableWidth>
-        <pageEvenLeftMargin>0.39</pageEvenLeftMargin>
-        <pageOddLeftMargin>0.39</pageOddLeftMargin>
-        <pageEvenTopMargin>0.39</pageEvenTopMargin>
-        <pageEvenBottomMargin>0.79</pageEvenBottomMargin>
-        <pageOddTopMargin>0.39</pageOddTopMargin>
-        <pageOddBottomMargin>0.79</pageOddBottomMargin>
-        <minSystemDistance>7</minSystemDistance>
+        <pageWidth>8.5</pageWidth>
+        <pageHeight>11</pageHeight>
+        <pagePrintableWidth>7.7126</pagePrintableWidth>
         <lyricsOddFontFace>Default</lyricsOddFontFace>
         <lyricsOddFontSize>10</lyricsOddFontSize>
         <lyricsEvenFontFace>Default</lyricsEvenFontFace>
         <lyricsEvenFontSize>10</lyricsEvenFontSize>
+        <smallStaffMag>0.6</smallStaffMag>
         <useStandardNoteNames>0</useStandardNoteNames>
         <createMultiMeasureRests>1</createMultiMeasureRests>
-        <Spatium>1.4986</Spatium>
+        <footerOddEven>0</footerOddEven>
+        <oddFooterL>$M $m</oddFooterL>
+        <Spatium>1.4</Spatium>
         </Style>
       <showInvisible>1</showInvisible>
       <showUnprintable>1</showUnprintable>
@@ -9781,7 +9777,7 @@
         </Part>
       <Staff id="1">
         <VBox>
-          <height>10</height>
+          <height>4.97175</height>
           <linked>
             <location>
               <staves>-1</staves>
@@ -9803,6 +9799,7 @@
                 </location>
               </linked>
             <style>Subtitle</style>
+            <offset x="74.6683" y="1.09461"/>
             <text>Beth + Noah wedding</text>
             </Text>
           <Text>
@@ -16378,7 +16375,7 @@
               <dots>1</dots>
               <durationType>quarter</durationType>
               <Stem>
-                <userLen>0.0960443</userLen>
+                <userLen>0.0959547</userLen>
                 </Stem>
               <StemDirection>down</StemDirection>
               <Note>
@@ -16659,7 +16656,7 @@
               <dots>1</dots>
               <durationType>quarter</durationType>
               <Stem>
-                <userLen>0.0960443</userLen>
+                <userLen>0.0959547</userLen>
                 </Stem>
               <StemDirection>down</StemDirection>
               <Note>
@@ -16979,15 +16976,9 @@
       <currentLayer>0</currentLayer>
       <Division>480</Division>
       <Style>
-        <pageWidth>8.27</pageWidth>
-        <pageHeight>11.69</pageHeight>
-        <pagePrintableWidth>7.49</pagePrintableWidth>
-        <pageEvenLeftMargin>0.39</pageEvenLeftMargin>
-        <pageOddLeftMargin>0.39</pageOddLeftMargin>
-        <pageEvenTopMargin>0.39</pageEvenTopMargin>
-        <pageEvenBottomMargin>0.79</pageEvenBottomMargin>
-        <pageOddTopMargin>0.39</pageOddTopMargin>
-        <pageOddBottomMargin>0.79</pageOddBottomMargin>
+        <pageWidth>8.5</pageWidth>
+        <pageHeight>11</pageHeight>
+        <pagePrintableWidth>7.7126</pagePrintableWidth>
         <minSystemDistance>7</minSystemDistance>
         <lyricsOddFontFace>Default</lyricsOddFontFace>
         <lyricsOddFontSize>10</lyricsOddFontSize>
@@ -16995,7 +16986,9 @@
         <lyricsEvenFontSize>10</lyricsEvenFontSize>
         <useStandardNoteNames>0</useStandardNoteNames>
         <createMultiMeasureRests>1</createMultiMeasureRests>
-        <Spatium>1.6256</Spatium>
+        <footerOddEven>0</footerOddEven>
+        <oddFooterL>$M $m</oddFooterL>
+        <Spatium>1.4</Spatium>
         </Style>
       <showInvisible>1</showInvisible>
       <showUnprintable>1</showUnprintable>
@@ -20216,7 +20209,7 @@
               <dots>1</dots>
               <durationType>quarter</durationType>
               <Stem>
-                <userLen>0.0960443</userLen>
+                <userLen>0.104184</userLen>
                 </Stem>
               <StemDirection>down</StemDirection>
               <Note>
@@ -20497,7 +20490,7 @@
               <dots>1</dots>
               <durationType>quarter</durationType>
               <Stem>
-                <userLen>0.0960443</userLen>
+                <userLen>0.104184</userLen>
                 </Stem>
               <StemDirection>down</StemDirection>
               <Note>

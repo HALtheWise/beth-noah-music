@@ -11,6 +11,7 @@
       <pageHeight>11</pageHeight>
       <pagePrintableWidth>7.7126</pagePrintableWidth>
       <useStandardNoteNames>0</useStandardNoteNames>
+      <oddFooterL>$M $m</oddFooterL>
       <Spatium>1.764</Spatium>
       </Style>
     <showInvisible>1</showInvisible>
@@ -87,6 +88,7 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="73"/>
           <synti>Fluid</synti>
@@ -154,6 +156,7 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel name="arco">
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="40"/>
           <synti>Fluid</synti>
@@ -163,6 +166,7 @@
           <synti>Fluid</synti>
           </Channel>
         <Channel name="tremolo">
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="44"/>
           <synti>Fluid</synti>
@@ -204,7 +208,7 @@
             <tempo>1.06667</tempo>
             <followText>1</followText>
             <linkedMain/>
-            <text><b></b><font face="ScoreText"/><b><font face="FreeSerif"/> = 64
+            <text><b></b><font face="ScoreText"></font><b><font face="FreeSerif"></font> = 64
 </b></text>
             </Tempo>
           <Rest>
@@ -3277,6 +3281,7 @@
             <gateTime>100</gateTime>
             </Articulation>
           <Channel>
+            <controller ctrl="0" value="0"/>
             <controller ctrl="32" value="17"/>
             <program value="73"/>
             <synti>Fluid</synti>
@@ -3346,6 +3351,7 @@
             <gateTime>100</gateTime>
             </Articulation>
           <Channel name="arco">
+            <controller ctrl="0" value="0"/>
             <controller ctrl="32" value="17"/>
             <program value="40"/>
             <synti>Fluid</synti>
@@ -3355,6 +3361,7 @@
             <synti>Fluid</synti>
             </Channel>
           <Channel name="tremolo">
+            <controller ctrl="0" value="0"/>
             <controller ctrl="32" value="17"/>
             <program value="44"/>
             <synti>Fluid</synti>
@@ -3407,7 +3414,7 @@
               <followText>1</followText>
               <linked>
                 </linked>
-              <text><b></b><font face="ScoreText"/><b><font face="FreeSerif"/> = 64
+              <text><b></b><font face="ScoreText"></font><b><font face="FreeSerif"></font> = 64
 </b></text>
               </Tempo>
             <Rest>
