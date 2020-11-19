@@ -5938,7 +5938,7 @@
               <next>
                 <location>
                   <measures>2</measures>
-                  <fractions>-1/2</fractions>
+                  <fractions>-3/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -6030,14 +6030,6 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-2</measures>
-                  <fractions>1/2</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <StemDirection>down</StemDirection>
             <Note>
               <linkedMain/>
@@ -6058,6 +6050,14 @@
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-2</measures>
+                  <fractions>3/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <StemDirection>down</StemDirection>
             <Note>
               <linkedMain/>
@@ -6230,7 +6230,7 @@
               <next>
                 <location>
                   <measures>2</measures>
-                  <fractions>-1/2</fractions>
+                  <fractions>-3/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -6356,14 +6356,6 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-2</measures>
-                  <fractions>1/2</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <StemDirection>down</StemDirection>
             <Note>
               <linkedMain/>
@@ -6384,6 +6376,14 @@
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-2</measures>
+                  <fractions>3/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <StemDirection>down</StemDirection>
             <Note>
               <linkedMain/>
@@ -12750,11 +12750,15 @@
                 <Slur>
                   <linked>
                     </linked>
+                  <SlurSegment no="0">
+                    <o2 x="-4.6697" y="-0.805121"/>
+                    <o3 x="-4.6697" y="-0.805121"/>
+                    </SlurSegment>
                   </Slur>
                 <next>
                   <location>
                     <measures>2</measures>
-                    <fractions>-1/2</fractions>
+                    <fractions>-3/8</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -12858,14 +12862,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Spanner type="Slur">
-                <prev>
-                  <location>
-                    <measures>-2</measures>
-                    <fractions>1/2</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -12889,6 +12885,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <measures>-2</measures>
+                    <fractions>3/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -13086,11 +13090,15 @@
                 <Slur>
                   <linked>
                     </linked>
+                  <SlurSegment no="0">
+                    <o2 x="-2.57639" y="-1.28819"/>
+                    <o3 x="-2.57639" y="-1.28819"/>
+                    </SlurSegment>
                   </Slur>
                 <next>
                   <location>
                     <measures>2</measures>
-                    <fractions>-1/2</fractions>
+                    <fractions>-3/8</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -13232,14 +13240,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Spanner type="Slur">
-                <prev>
-                  <location>
-                    <measures>-2</measures>
-                    <fractions>1/2</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -13263,6 +13263,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <measures>-2</measures>
+                    <fractions>3/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -23740,7 +23748,7 @@
                 <next>
                   <location>
                     <measures>2</measures>
-                    <fractions>-1/2</fractions>
+                    <fractions>-3/8</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -23844,14 +23852,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Spanner type="Slur">
-                <prev>
-                  <location>
-                    <measures>-2</measures>
-                    <fractions>1/2</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -23875,6 +23875,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <measures>-2</measures>
+                    <fractions>3/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -24076,7 +24084,7 @@
                 <next>
                   <location>
                     <measures>2</measures>
-                    <fractions>-1/2</fractions>
+                    <fractions>-3/8</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -24218,14 +24226,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Spanner type="Slur">
-                <prev>
-                  <location>
-                    <measures>-2</measures>
-                    <fractions>1/2</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
@@ -24249,6 +24249,14 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <measures>-2</measures>
+                    <fractions>3/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <StemDirection>down</StemDirection>
               <Note>
                 <linked>
