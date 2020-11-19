@@ -347,11 +347,13 @@
           <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="40"/>
+          <controller ctrl="7" value="68"/>
           <controller ctrl="10" value="42"/>
           <synti>Fluid</synti>
           </Channel>
         <Channel name="pizzicato">
           <program value="45"/>
+          <controller ctrl="7" value="68"/>
           <controller ctrl="10" value="42"/>
           <synti>Fluid</synti>
           </Channel>
@@ -359,6 +361,7 @@
           <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="44"/>
+          <controller ctrl="7" value="68"/>
           <controller ctrl="10" value="42"/>
           <synti>Fluid</synti>
           </Channel>
@@ -26913,10 +26916,6 @@
                   </location>
                 </next>
               </Spanner>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              <linkedMain/>
-              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>74</pitch>
@@ -28426,9 +28425,6 @@
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <Beam>
-            <StemDirection>down</StemDirection>
-            </Beam>
           <Chord>
             <linkedMain/>
             <BeamMode>begin</BeamMode>
@@ -28589,9 +28585,6 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Beam>
-            <StemDirection>down</StemDirection>
-            </Beam>
           <Chord>
             <linkedMain/>
             <BeamMode>begin</BeamMode>
@@ -28667,9 +28660,6 @@
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <Beam>
-            <StemDirection>down</StemDirection>
-            </Beam>
           <Chord>
             <linkedMain/>
             <BeamMode>begin</BeamMode>
@@ -33170,11 +33160,6 @@
                     </location>
                   </next>
                 </Spanner>
-              <Articulation>
-                <subtype>articStaccatoAbove</subtype>
-                <linked>
-                  </linked>
-                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -34907,9 +34892,6 @@
                 <tpc>12</tpc>
                 </Note>
               </Chord>
-            <Beam>
-              <StemDirection>down</StemDirection>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -35091,9 +35073,6 @@
                 <tpc>14</tpc>
                 </Note>
               </Chord>
-            <Beam>
-              <StemDirection>down</StemDirection>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -35179,9 +35158,6 @@
                 <tpc>12</tpc>
                 </Note>
               </Chord>
-            <Beam>
-              <StemDirection>down</StemDirection>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -55533,11 +55509,6 @@
                     </location>
                   </next>
                 </Spanner>
-              <Articulation>
-                <subtype>articStaccatoAbove</subtype>
-                <linked>
-                  </linked>
-                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -57261,9 +57232,6 @@
                 <tpc>12</tpc>
                 </Note>
               </Chord>
-            <Beam>
-              <StemDirection>down</StemDirection>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -57445,9 +57413,6 @@
                 <tpc>14</tpc>
                 </Note>
               </Chord>
-            <Beam>
-              <StemDirection>down</StemDirection>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -57533,9 +57498,6 @@
                 <tpc>12</tpc>
                 </Note>
               </Chord>
-            <Beam>
-              <StemDirection>down</StemDirection>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
