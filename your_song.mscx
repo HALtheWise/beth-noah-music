@@ -15996,8 +15996,8 @@
           </Staff>
         <trackName>Becky</trackName>
         <Instrument>
-          <longName>Violin</longName>
-          <shortName>Vln.</shortName>
+          <longName>Becky</longName>
+          <shortName>B.</shortName>
           <trackName>Violin</trackName>
           <minPitchP>55</minPitchP>
           <maxPitchP>103</maxPitchP>
@@ -16072,8 +16072,8 @@
           </Staff>
         <trackName>Eric</trackName>
         <Instrument>
-          <longName>Flute</longName>
-          <shortName>Fl.</shortName>
+          <longName>Eric</longName>
+          <shortName>E.</shortName>
           <trackName>Flute</trackName>
           <minPitchP>59</minPitchP>
           <maxPitchP>98</maxPitchP>

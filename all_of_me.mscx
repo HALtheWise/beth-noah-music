@@ -3708,6 +3708,17 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>1</subtype>
+              <linkedMain/>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <linkedMain/>
             <dots>1</dots>
@@ -3773,6 +3784,13 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <linkedMain/>
             <durationType>half</durationType>
@@ -4371,24 +4389,13 @@
             <linkedMain/>
             <durationType>quarter</durationType>
             </Rest>
-          <Tuplet>
-            <linkedMain/>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>quarter</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
           <Chord>
             <linkedMain/>
-            <durationType>quarter</durationType>
+            <durationType>eighth</durationType>
             <Lyrics>
               <linkedMain/>
-              <text>What’s</text>
+              <text>What's</text>
               </Lyrics>
-            <StemDirection>down</StemDirection>
             <Note>
               <linkedMain/>
               <pitch>79</pitch>
@@ -4397,13 +4404,12 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>quarter</durationType>
+            <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
               <linkedMain/>
               <text>go</text>
               </Lyrics>
-            <StemDirection>down</StemDirection>
             <Note>
               <linkedMain/>
               <pitch>81</pitch>
@@ -4418,14 +4424,12 @@
               <linkedMain/>
               <text>ing</text>
               </Lyrics>
-            <StemDirection>down</StemDirection>
             <Note>
               <linkedMain/>
               <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <endTuplet/>
           </voice>
         </Measure>
       <Measure>
@@ -4956,7 +4960,8 @@
         <voice>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
               <linkedMain/>
@@ -4969,14 +4974,6 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Rest>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Rest>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            </Rest>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -6404,6 +6401,10 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Lyrics>
+              <linkedMain/>
+              <text>of</text>
+              </Lyrics>
             <Note>
               <linkedMain/>
               <pitch>81</pitch>
@@ -6461,6 +6462,8 @@
             <linkedMain/>
             <durationType>quarter</durationType>
             </Rest>
+          <Beam>
+            </Beam>
           <Chord>
             <linkedMain/>
             <BeamMode>begin</BeamMode>
@@ -6469,6 +6472,17 @@
               <linkedMain/>
               <text>oh</text>
               </Lyrics>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>-3/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <pitch>81</pitch>
@@ -6502,6 +6516,14 @@
           <Chord>
             <linkedMain/>
             <durationType>whole</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>3/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -9649,7 +9671,7 @@
         <createMultiMeasureRests>1</createMultiMeasureRests>
         <footerOddEven>0</footerOddEven>
         <oddFooterL>$M $m</oddFooterL>
-        <Spatium>1.4</Spatium>
+        <Spatium>2</Spatium>
         </Style>
       <showInvisible>1</showInvisible>
       <showUnprintable>1</showUnprintable>
@@ -10076,6 +10098,18 @@
           </Measure>
         <Measure>
           <voice>
+            <Spanner type="HairPin">
+              <HairPin>
+                <subtype>1</subtype>
+                <linked>
+                  </linked>
+                </HairPin>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
             <Chord>
               <linked>
                 </linked>
@@ -10151,6 +10185,13 @@
           </Measure>
         <Measure>
           <voice>
+            <Spanner type="HairPin">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
             <Rest>
               <linked>
                 </linked>
@@ -10870,27 +10911,15 @@
                 </linked>
               <durationType>quarter</durationType>
               </Rest>
-            <Tuplet>
-              <linked>
-                </linked>
-              <normalNotes>2</normalNotes>
-              <actualNotes>3</actualNotes>
-              <baseNote>quarter</baseNote>
-              <Number>
-                <style>Tuplet</style>
-                <text>3</text>
-                </Number>
-              </Tuplet>
             <Chord>
               <linked>
                 </linked>
-              <durationType>quarter</durationType>
+              <durationType>eighth</durationType>
               <Lyrics>
                 <linked>
                   </linked>
-                <text>What’s</text>
+                <text>What's</text>
                 </Lyrics>
-              <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
@@ -10901,14 +10930,13 @@
             <Chord>
               <linked>
                 </linked>
-              <durationType>quarter</durationType>
+              <durationType>eighth</durationType>
               <Lyrics>
                 <syllabic>begin</syllabic>
                 <linked>
                   </linked>
                 <text>go</text>
                 </Lyrics>
-              <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
@@ -10926,7 +10954,6 @@
                   </linked>
                 <text>ing</text>
                 </Lyrics>
-              <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
@@ -10934,7 +10961,6 @@
                 <tpc>17</tpc>
                 </Note>
               </Chord>
-            <endTuplet/>
             </voice>
           </Measure>
         <Measure>
@@ -11574,7 +11600,8 @@
             <Chord>
               <linked>
                 </linked>
-              <durationType>eighth</durationType>
+              <dots>1</dots>
+              <durationType>quarter</durationType>
               <Lyrics>
                 <syllabic>begin</syllabic>
                 <linked>
@@ -11589,16 +11616,6 @@
                 <tpc>17</tpc>
                 </Note>
               </Chord>
-            <Rest>
-              <linked>
-                </linked>
-              <durationType>eighth</durationType>
-              </Rest>
-            <Rest>
-              <linked>
-                </linked>
-              <durationType>eighth</durationType>
-              </Rest>
             <Chord>
               <linked>
                 </linked>
@@ -13265,6 +13282,11 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Lyrics>
+                <linked>
+                  </linked>
+                <text>of</text>
+                </Lyrics>
               <Note>
                 <linked>
                   </linked>
@@ -13340,6 +13362,18 @@
                   </linked>
                 <text>oh</text>
                 </Lyrics>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-3/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -13378,6 +13412,14 @@
               <linked>
                 </linked>
               <durationType>whole</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>3/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -17028,7 +17070,7 @@
         <createMultiMeasureRests>1</createMultiMeasureRests>
         <footerOddEven>0</footerOddEven>
         <oddFooterL>$M $m</oddFooterL>
-        <Spatium>1.4</Spatium>
+        <Spatium>2.03</Spatium>
         </Style>
       <showInvisible>1</showInvisible>
       <showUnprintable>1</showUnprintable>
@@ -21076,6 +21118,18 @@
           </Measure>
         <Measure>
           <voice>
+            <Spanner type="HairPin">
+              <HairPin>
+                <subtype>1</subtype>
+                <linked>
+                  </linked>
+                </HairPin>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
             <Chord>
               <linked>
                 </linked>
@@ -21151,6 +21205,13 @@
           </Measure>
         <Measure>
           <voice>
+            <Spanner type="HairPin">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
             <Rest>
               <linked>
                 </linked>
@@ -21862,27 +21923,15 @@
                 </linked>
               <durationType>quarter</durationType>
               </Rest>
-            <Tuplet>
-              <linked>
-                </linked>
-              <normalNotes>2</normalNotes>
-              <actualNotes>3</actualNotes>
-              <baseNote>quarter</baseNote>
-              <Number>
-                <style>Tuplet</style>
-                <text>3</text>
-                </Number>
-              </Tuplet>
             <Chord>
               <linked>
                 </linked>
-              <durationType>quarter</durationType>
+              <durationType>eighth</durationType>
               <Lyrics>
                 <linked>
                   </linked>
-                <text>What’s</text>
+                <text>What's</text>
                 </Lyrics>
-              <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
@@ -21893,14 +21942,13 @@
             <Chord>
               <linked>
                 </linked>
-              <durationType>quarter</durationType>
+              <durationType>eighth</durationType>
               <Lyrics>
                 <syllabic>begin</syllabic>
                 <linked>
                   </linked>
                 <text>go</text>
                 </Lyrics>
-              <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
@@ -21918,7 +21966,6 @@
                   </linked>
                 <text>ing</text>
                 </Lyrics>
-              <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
@@ -21926,7 +21973,6 @@
                 <tpc>17</tpc>
                 </Note>
               </Chord>
-            <endTuplet/>
             </voice>
           </Measure>
         <Measure>
@@ -22550,7 +22596,8 @@
             <Chord>
               <linked>
                 </linked>
-              <durationType>eighth</durationType>
+              <dots>1</dots>
+              <durationType>quarter</durationType>
               <Lyrics>
                 <syllabic>begin</syllabic>
                 <linked>
@@ -22565,16 +22612,6 @@
                 <tpc>17</tpc>
                 </Note>
               </Chord>
-            <Rest>
-              <linked>
-                </linked>
-              <durationType>eighth</durationType>
-              </Rest>
-            <Rest>
-              <linked>
-                </linked>
-              <durationType>eighth</durationType>
-              </Rest>
             <Chord>
               <linked>
                 </linked>
@@ -24231,6 +24268,11 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Lyrics>
+                <linked>
+                  </linked>
+                <text>of</text>
+                </Lyrics>
               <Note>
                 <linked>
                   </linked>
@@ -24306,6 +24348,18 @@
                   </linked>
                 <text>oh</text>
                 </Lyrics>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-3/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -24344,6 +24398,14 @@
               <linked>
                 </linked>
               <durationType>whole</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>3/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
