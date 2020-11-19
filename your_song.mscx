@@ -105,12 +105,14 @@
           <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="40"/>
+          <controller ctrl="7" value="101"/>
           <synti>Fluid</synti>
           <midiPort>0</midiPort>
           <midiChannel>0</midiChannel>
           </Channel>
         <Channel name="pizzicato">
           <program value="45"/>
+          <controller ctrl="7" value="101"/>
           <synti>Fluid</synti>
           <midiPort>0</midiPort>
           <midiChannel>2</midiChannel>
@@ -119,6 +121,7 @@
           <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="44"/>
+          <controller ctrl="7" value="101"/>
           <synti>Fluid</synti>
           <midiPort>0</midiPort>
           <midiChannel>3</midiChannel>
@@ -185,6 +188,7 @@
           <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="73"/>
+          <controller ctrl="7" value="69"/>
           <synti>Fluid</synti>
           <midiPort>0</midiPort>
           <midiChannel>1</midiChannel>
@@ -221,7 +225,7 @@
         <Text>
           <linkedMain/>
           <style>Subtitle</style>
-          <text>Beth + Noah's Wedding</text>
+          <text>Beth + Noah</text>
           </Text>
         </VBox>
       <Measure>
@@ -4946,6 +4950,16 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
@@ -4956,6 +4970,13 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
@@ -7683,7 +7704,7 @@
                 </location>
               </linked>
             <style>Subtitle</style>
-            <text>Beth + Noah's Wedding</text>
+            <text>Beth + Noah</text>
             </Text>
           <Text>
             <style>Instrument Name (Part)</style>
@@ -8895,6 +8916,17 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <StemDirection>up</StemDirection>
               <Note>
                 <linked>
@@ -8907,6 +8939,13 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <StemDirection>up</StemDirection>
               <Note>
                 <linked>
@@ -15996,8 +16035,8 @@
           </Staff>
         <trackName>Becky</trackName>
         <Instrument>
-          <longName>Becky</longName>
-          <shortName>B.</shortName>
+          <longName>Violin</longName>
+          <shortName>Vln.</shortName>
           <trackName>Violin</trackName>
           <minPitchP>55</minPitchP>
           <maxPitchP>103</maxPitchP>
@@ -16072,8 +16111,8 @@
           </Staff>
         <trackName>Eric</trackName>
         <Instrument>
-          <longName>Eric</longName>
-          <shortName>E.</shortName>
+          <longName>Flute</longName>
+          <shortName>Fl.</shortName>
           <trackName>Flute</trackName>
           <minPitchP>59</minPitchP>
           <maxPitchP>98</maxPitchP>
@@ -16159,7 +16198,7 @@
             <linked>
               </linked>
             <style>Subtitle</style>
-            <text>Beth + Noah's Wedding</text>
+            <text>Beth + Noah</text>
             </Text>
           <Text>
             <style>Instrument Name (Part)</style>
@@ -21532,6 +21571,17 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <StemDirection>up</StemDirection>
               <Note>
                 <linked>
@@ -21544,6 +21594,13 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <StemDirection>up</StemDirection>
               <Note>
                 <linked>
