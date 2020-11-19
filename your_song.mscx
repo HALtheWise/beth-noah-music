@@ -3,6 +3,7 @@
   <programVersion>3.5.2</programVersion>
   <programRevision>465e7b6</programRevision>
   <Score>
+    <layoutMode>system</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
     <Division>480</Division>
@@ -220,7 +221,7 @@
         <Text>
           <linkedMain/>
           <style>Subtitle</style>
-          <text>Beth + Noah</text>
+          <text>Beth + Noah's Wedding</text>
           </Text>
         </VBox>
       <Measure>
@@ -7682,7 +7683,7 @@
                 </location>
               </linked>
             <style>Subtitle</style>
-            <text>Beth + Noah</text>
+            <text>Beth + Noah's Wedding</text>
             </Text>
           <Text>
             <style>Instrument Name (Part)</style>
@@ -16158,7 +16159,7 @@
             <linked>
               </linked>
             <style>Subtitle</style>
-            <text>Beth + Noah</text>
+            <text>Beth + Noah's Wedding</text>
             </Text>
           <Text>
             <style>Instrument Name (Part)</style>
